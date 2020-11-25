@@ -1,0 +1,1860 @@
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.10.20)  8 NOV 2014 05:14
+entering extended mode
+**thesis.tex
+("C:\Users\Edoardo\Desktop\L.A\2-D Spectral Volumes\Thesis\thesis.tex"
+LaTeX2e <2011/06/27>
+Babel <v3.8m> and hyphenation patterns for english, afrikaans, ancientgreek, ar
+abic, armenian, assamese, basque, bengali, bokmal, bulgarian, catalan, coptic, 
+croatian, czech, danish, dutch, esperanto, estonian, farsi, finnish, french, ga
+lician, german, german-x-2013-05-26, greek, gujarati, hindi, hungarian, iceland
+ic, indonesian, interlingua, irish, italian, kannada, kurmanji, latin, latvian,
+ lithuanian, malayalam, marathi, mongolian, mongolianlmc, monogreek, ngerman, n
+german-x-2013-05-26, nynorsk, oriya, panjabi, pinyin, polish, portuguese, roman
+ian, russian, sanskrit, serbian, slovak, slovenian, spanish, swedish, swissgerm
+an, tamil, telugu, turkish, turkmen, ukenglish, ukrainian, uppersorbian, usengl
+ishmax, welsh, loaded.
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\book.cls"
+Document Class: book 2007/10/19 v1.4h Standard LaTeX document class
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\bk12.clo"
+File: bk12.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
+)
+\c@part=\count79
+\c@chapter=\count80
+\c@section=\count81
+\c@subsection=\count82
+\c@subsubsection=\count83
+\c@paragraph=\count84
+\c@subparagraph=\count85
+\c@figure=\count86
+\c@table=\count87
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\graphicx.sty"
+Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\keyval.sty"
+Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
+\KV@toks@=\toks14
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\graphics.sty"
+Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\trig.sty"
+Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\00miktex\graphics.cfg"
+File: graphics.cfg 2007/01/18 v1.5 graphics configuration of teTeX/TeXLive
+)
+Package graphics Info: Driver file: pdftex.def on input line 91.
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\pdftex-def\pdftex.def"
+File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\infwarerr.sty"
+Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\ltxcmds.sty"
+Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
+)
+\Gread@gobject=\count88
+))
+\Gin@req@height=\dimen103
+\Gin@req@width=\dimen104
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\caption\caption.sty"
+Package: caption 2013/05/02 v3.3-89 Customizing captions (AR)
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\caption\caption3.sty"
+Package: caption3 2013/05/02 v1.6-88 caption3 kernel (AR)
+Package caption3 Info: TeX engine: e-TeX on input line 57.
+\captionmargin=\dimen105
+\captionmargin@=\dimen106
+\captionwidth=\dimen107
+\caption@tempdima=\dimen108
+\caption@indent=\dimen109
+\caption@parindent=\dimen110
+\caption@hangindent=\dimen111
+)
+\c@ContinuedFloat=\count89
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsmath\amsmath.sty"
+Package: amsmath 2013/01/14 v2.14 AMS math features
+\@mathmargin=\skip43
+
+For additional information on amsmath, use the `?' option.
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsmath\amstext.sty"
+Package: amstext 2000/06/29 v2.01
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsmath\amsgen.sty"
+File: amsgen.sty 1999/11/30 v2.0
+\@emptytoks=\toks15
+\ex@=\dimen112
+))
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsmath\amsbsy.sty"
+Package: amsbsy 1999/11/29 v1.2d
+\pmbraise@=\dimen113
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsmath\amsopn.sty"
+Package: amsopn 1999/12/14 v2.01 operator names
+)
+\inf@bad=\count90
+LaTeX Info: Redefining \frac on input line 210.
+\uproot@=\count91
+\leftroot@=\count92
+LaTeX Info: Redefining \overline on input line 306.
+\classnum@=\count93
+\DOTSCASE@=\count94
+LaTeX Info: Redefining \ldots on input line 378.
+LaTeX Info: Redefining \dots on input line 381.
+LaTeX Info: Redefining \cdots on input line 466.
+\Mathstrutbox@=\box26
+\strutbox@=\box27
+\big@size=\dimen114
+LaTeX Font Info:    Redeclaring font encoding OML on input line 566.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 567.
+\macc@depth=\count95
+\c@MaxMatrixCols=\count96
+\dotsspace@=\muskip10
+\c@parentequation=\count97
+\dspbrk@lvl=\count98
+\tag@help=\toks16
+\row@=\count99
+\column@=\count100
+\maxfields@=\count101
+\andhelp@=\toks17
+\eqnshift@=\dimen115
+\alignsep@=\dimen116
+\tagshift@=\dimen117
+\tagwidth@=\dimen118
+\totwidth@=\dimen119
+\lineht@=\dimen120
+\@envbody=\toks18
+\multlinegap=\skip44
+\multlinetaggap=\skip45
+\mathdisplay@stack=\toks19
+LaTeX Info: Redefining \[ on input line 2665.
+LaTeX Info: Redefining \] on input line 2666.
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amscls\amsthm.sty"
+Package: amsthm 2004/08/06 v2.20
+\thm@style=\toks20
+\thm@bodyfont=\toks21
+\thm@headfont=\toks22
+\thm@notefont=\toks23
+\thm@headpunct=\toks24
+\thm@preskip=\skip46
+\thm@postskip=\skip47
+\thm@headsep=\skip48
+\dth@everypar=\toks25
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\geometry\geometry.sty"
+Package: geometry 2010/09/12 v5.6 Page Geometry
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\ifpdf.sty"
+Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
+Package ifpdf Info: pdfTeX in PDF mode is detected.
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\ifvtex.sty"
+Package: ifvtex 2010/03/01 v1.5 Detect VTeX and its facilities (HO)
+Package ifvtex Info: VTeX not detected.
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\ifxetex\ifxetex.sty"
+Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
+)
+\Gm@cnth=\count102
+\Gm@cntv=\count103
+\c@Gm@tempcnt=\count104
+\Gm@bindingoffset=\dimen121
+\Gm@wd@mp=\dimen122
+\Gm@odd@mp=\dimen123
+\Gm@even@mp=\dimen124
+\Gm@layoutwidth=\dimen125
+\Gm@layoutheight=\dimen126
+\Gm@layouthoffset=\dimen127
+\Gm@layoutvoffset=\dimen128
+\Gm@dimlist=\toks26
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\geometry\geometry.cfg"))
+\c@theorem=\count105
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\booktabs\booktabs.sty"
+Package: booktabs 2005/04/14 v1.61803 publication quality tables
+\heavyrulewidth=\dimen129
+\lightrulewidth=\dimen130
+\cmidrulewidth=\dimen131
+\belowrulesep=\dimen132
+\belowbottomsep=\dimen133
+\aboverulesep=\dimen134
+\abovetopsep=\dimen135
+\cmidrulesep=\dimen136
+\cmidrulekern=\dimen137
+\defaultaddspace=\dimen138
+\@cmidla=\count106
+\@cmidlb=\count107
+\@aboverulesep=\dimen139
+\@belowrulesep=\dimen140
+\@thisruleclass=\count108
+\@lastruleclass=\count109
+\@thisrulewidth=\dimen141
+)
+\c@Property=\count110
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\wrapfig\wrapfig.sty"
+\wrapoverhang=\dimen142
+\WF@size=\dimen143
+\c@WF@wrappedlines=\count111
+\WF@box=\box28
+\WF@everypar=\toks27
+Package: wrapfig 2003/01/31  v 3.6
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\fancybox\fancybox.sty"
+Package: fancybox 2010/05/15 1.4
+
+Style option: `fancybox' v1.4 <2010/05/15> (tvz)
+\@fancybox=\box29
+\shadowsize=\dimen144
+\@Sbox=\box30
+\do@VerbBox=\toks28
+\the@fancyput=\toks29
+\this@fancyput=\toks30
+\EndVerbatimTokens=\toks31
+\Verbatim@Outfile=\write3
+\Verbatim@Infile=\read1
+) ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\listings\listings.sty"
+\lst@mode=\count112
+\lst@gtempboxa=\box31
+\lst@token=\toks32
+\lst@length=\count113
+\lst@currlwidth=\dimen145
+\lst@column=\count114
+\lst@pos=\count115
+\lst@lostspace=\dimen146
+\lst@width=\dimen147
+\lst@newlines=\count116
+\lst@lineno=\count117
+\lst@maxwidth=\dimen148
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\listings\lstmisc.sty"
+File: lstmisc.sty 2014/09/06 1.5e (Carsten Heinz)
+\c@lstnumber=\count118
+\lst@skipnumbers=\count119
+\lst@framebox=\box32
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\listings\listings.cfg"
+File: listings.cfg 2014/09/06 1.5e listings configuration
+))
+Package: listings 2014/09/06 1.5e (Carsten Heinz)
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\listings\lstlang1.sty"
+File: lstlang1.sty 2014/09/06 1.5e listings language file
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\listings\lstlang1.sty"
+File: lstlang1.sty 2014/09/06 1.5e listings language file
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\listings\lstmisc.sty"
+File: lstmisc.sty 2014/09/06 1.5e (Carsten Heinz)
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\float\float.sty"
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count120
+\float@exts=\toks33
+\float@box=\box33
+\@float@everytoks=\toks34
+\@floatcapt=\box34
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\minitoc\minitoc.sty"
+Package: minitoc 2008/07/16 v60 Package minitoc (JPFD)
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\minitoc\mtcmess.sty"
+Package: mtcmess 2006/03/14
+)
+Package minitoc Info: I0001
+(minitoc)             *** minitoc package, version 60 ***.
+\tf@mtc=\write4
+\mtcindent=\skip49
+\mtcskipamount=\skip50
+Package minitoc Info: I0005
+(minitoc)             compatible with hyperref.
+Package minitoc Info: I0023
+(minitoc)             part level macros available.
+Package minitoc Info: I0003
+(minitoc)             chapter level macros available.
+\mtc@toks=\toks35
+\mtc@strutbox=\box35
+\mtc@hstrutbox=\box36
+Package minitoc Info: I0002
+(minitoc)             Autoconfiguration of extensions.
+
+("C:\Users\Edoardo\Desktop\L.A\2-D Spectral Volumes\Thesis\thesis.mtc0")
+Package minitoc Info: I0012
+(minitoc)             Long extensions (Unix-like) will be used.
+Package minitoc Info: I0031
+(minitoc)             ==> this version is configured for UNIX-like 
+(minitoc)                 (long extensions) file names.
+\c@mtc=\count121
+\c@minitocdepth=\count122
+\c@ptc=\count123
+\c@parttocdepth=\count124
+\ptcindent=\skip51
+Package minitoc Info: I0010
+(minitoc)             The english language is selected.
+(minitoc)              on input line 4910.
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\minitoc\english.mld"
+File: english.mld 2006/01/13
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\minitoc\english.mld"
+File: english.mld 2006/01/13
+))
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\tools\indentfirst.sty"
+Package: indentfirst 1995/11/23 v1.03 Indent first paragraph (DPC)
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\fncychap\fncychap.sty"
+Package: fncychap 2007/07/30 v1.34 LaTeX package (Revised chapters)
+\RW=\skip52
+\mylen=\skip53
+\myhi=\skip54
+\px=\skip55
+\py=\skip56
+\pyy=\skip57
+\pxx=\skip58
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\tocloft\tocloft.sty"
+Package: tocloft 2013/05/02 v2.3f parameterised ToC, etc., typesetting
+Package tocloft Info: The document has chapter divisions on input line 44.
+\cftparskip=\skip59
+\cftbeforetoctitleskip=\skip60
+\cftaftertoctitleskip=\skip61
+\cftbeforepartskip=\skip62
+\cftpartnumwidth=\skip63
+\cftpartindent=\skip64
+\cftbeforechapskip=\skip65
+\cftchapindent=\skip66
+\cftchapnumwidth=\skip67
+\cftbeforesecskip=\skip68
+\cftsecindent=\skip69
+\cftsecnumwidth=\skip70
+\cftbeforesubsecskip=\skip71
+\cftsubsecindent=\skip72
+\cftsubsecnumwidth=\skip73
+\cftbeforesubsubsecskip=\skip74
+\cftsubsubsecindent=\skip75
+\cftsubsubsecnumwidth=\skip76
+\cftbeforeparaskip=\skip77
+\cftparaindent=\skip78
+\cftparanumwidth=\skip79
+\cftbeforesubparaskip=\skip80
+\cftsubparaindent=\skip81
+\cftsubparanumwidth=\skip82
+\cftbeforeloftitleskip=\skip83
+\cftafterloftitleskip=\skip84
+\cftbeforefigskip=\skip85
+\cftfigindent=\skip86
+\cftfignumwidth=\skip87
+\c@lofdepth=\count125
+\c@lotdepth=\count126
+\cftbeforelottitleskip=\skip88
+\cftafterlottitleskip=\skip89
+\cftbeforetabskip=\skip90
+\cfttabindent=\skip91
+\cfttabnumwidth=\skip92
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsfonts\amsfonts.sty"
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\algorithm2e\algorithm2e.sty"
+Package: algorithm2e 2013/01/06 v5.00 algorithms environments
+\c@AlgoLine=\count127
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\ifthen.sty"
+Package: ifthen 2001/05/26 v1.1c Standard LaTeX ifthen package (DPC)
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\tools\xspace.sty"
+Package: xspace 2009/10/20 v1.13 Space after command names (DPC,MH)
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\ltxmisc\relsize.sty"
+Package: relsize 2003/07/04 ver 3.1
+)
+********************************************************
+Package `algorithm2e' Release 5.0 -- january 06 2013 --
+- algorithm2e-announce@lirmm.fr mailing list for announcement about releases
+- algorithm2e-discussion@lirmm.fr mailing list for discussion about package
+subscribe by emailing sympa@lirmm.fr with 'subscribe <list> <firstname name>'
+- Author: Christophe Fiorio (cfiorio@um2.fr)
+********************************************************
+\skiptotal=\skip93
+\skiplinenumber=\skip94
+\skiprule=\skip95
+\skiphlne=\skip96
+\skiptext=\skip97
+\skiplength=\skip98
+\algomargin=\skip99
+\skipalgocfslide=\skip100
+\algowidth=\dimen149
+\inoutsize=\dimen150
+\inoutindent=\dimen151
+\interspacetitleruled=\dimen152
+\interspacealgoruled=\dimen153
+\interspacetitleboxruled=\dimen154
+\algocf@inoutbox=\box37
+\algocf@inputbox=\box38
+\AlCapSkip=\skip101
+\AlCapHSkip=\skip102
+\algoskipindent=\skip103
+\algocf@nlbox=\box39
+\algocf@hangingbox=\box40
+\algocf@untilbox=\box41
+\algocf@skipuntil=\skip104
+\algocf@capbox=\box42
+\algoheightruledefault=\skip105
+\algoheightrule=\skip106
+\algotitleheightruledefault=\skip107
+\algotitleheightrule=\skip108
+\c@algocfline=\count128
+\c@algocfproc=\count129
+\c@algocf=\count130
+\algocf@algoframe=\box43
+\algocf@algobox=\box44
+) ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\color.sty"
+Package: color 2005/11/14 v1.0j Standard LaTeX Color (DPC)
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\00miktex\color.cfg"
+File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
+)
+Package color Info: Driver file: pdftex.def on input line 130.
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\dvipsnam.def"
+File: dvipsnam.def 1999/02/16 v3.0i Driver-dependant file (DPC,SPQR)
+))
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\alltt.sty"
+Package: alltt 1997/06/16 v2.0g defines alltt environment
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\babel\babel.sty"
+Package: babel 2008/07/08 v3.8m The Babel package
+
+*************************************
+* Local config file bblopts.cfg used
+*
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\00miktex\bblopts.cfg"
+File: bblopts.cfg 2006/07/31 v1.0 MiKTeX 'babel' configuration
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\babel\english.ldf"
+Language: english 2005/03/30 v3.3o English support from the babel system
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\babel\babel.def"
+File: babel.def 2008/07/08 v3.8m Babel common definitions
+\babel@savecnt=\count131
+\U@D=\dimen155
+)
+\l@canadian = a dialect from \language\l@american 
+\l@australian = a dialect from \language\l@british 
+\l@newzealand = a dialect from \language\l@british 
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\babel\italian.ldf"
+Language: italian 2008/03/14 v1.2t Italian support from the babel system
+Package babel Info: Making " an active character on input line 94.
+))
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\fancyhdr\fancyhdr.sty"
+\fancy@headwidth=\skip109
+\f@ncyO@elh=\skip110
+\f@ncyO@erh=\skip111
+\f@ncyO@olh=\skip112
+\f@ncyO@orh=\skip113
+\f@ncyO@elf=\skip114
+\f@ncyO@erf=\skip115
+\f@ncyO@olf=\skip116
+\f@ncyO@orf=\skip117
+)
+("C:\Users\Edoardo\Desktop\L.A\2-D Spectral Volumes\Thesis\thesis.aux")
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 52.
+LaTeX Font Info:    ... okay on input line 52.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 52.
+LaTeX Font Info:    ... okay on input line 52.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 52.
+LaTeX Font Info:    ... okay on input line 52.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 52.
+LaTeX Font Info:    ... okay on input line 52.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 52.
+LaTeX Font Info:    ... okay on input line 52.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 52.
+LaTeX Font Info:    ... okay on input line 52.
+LaTeX Font Info:    Checking defaults for LGR/cmr/m/n on input line 52.
+LaTeX Font Info:    Try loading font information for LGR+cmr on input line 52.
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\cbfonts-fd\lgrcmr.fd"
+File: lgrcmr.fd 2013/09/01 v1.0 Greek European Computer Regular
+)
+LaTeX Font Info:    ... okay on input line 52.
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count132
+\scratchdimen=\dimen156
+\scratchbox=\box45
+\nofMPsegments=\count133
+\nofMParguments=\count134
+\everyMPshowfont=\toks36
+\MPscratchCnt=\count135
+\MPscratchDim=\dimen157
+\MPnumerator=\count136
+\makeMPintoPDFobject=\count137
+\everyMPtoPDFconversion=\toks37
+)
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: float package is loaded.
+Package caption Info: listings package is loaded.
+Package caption Info: wrapfig package is loaded.
+Package caption Info: End \AtBeginDocument code.
+
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: a4paper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: twoside 
+* h-part:(L,W,R)=(71.13188pt, 455.24411pt, 71.13188pt)
+* v-part:(T,H,B)=(71.13188pt, 702.78308pt, 71.13188pt)
+* \paperwidth=597.50787pt
+* \paperheight=845.04684pt
+* \textwidth=455.24411pt
+* \textheight=702.78308pt
+* \oddsidemargin=-1.1381pt
+* \evensidemargin=-1.1381pt
+* \topmargin=-33.0119pt
+* \headheight=12.0pt
+* \headsep=19.8738pt
+* \topskip=12.0pt
+* \footskip=30.0pt
+* \marginparwidth=88.0pt
+* \marginparsep=7.0pt
+* \columnsep=10.0pt
+* \skip\footins=10.8pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidetrue
+* \@mparswitchtrue
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+\c@lstlisting=\count138
+\c@minilofdepth=\count139
+\c@minilotdepth=\count140
+\c@partlofdepth=\count141
+\c@partlotdepth=\count142
+\c@sectlofdepth=\count143
+\c@sectlotdepth=\count144
+Package minitoc(hints) Info: I0049
+(minitoc(hints))             ==> You requested the hints option. 
+(minitoc(hints))             Some hints are eventually given below.
+Package minitoc(hints) Info: I0047
+(minitoc(hints))             --- The tocloft package is loaded. 
+(minitoc(hints))             See the minitoc package documentation 
+(minitoc(hints))             for specific precautions.
+
+Package minitoc(hints) Warning: W0028
+(minitoc(hints))                --- The \chapter command is altered 
+(minitoc(hints))                after minitoc.
+
+<polito_logo.png, id=1, 144.54pt x 144.54pt>
+File: polito_logo.png Graphic file (type png)
+ <use polito_logo.png>
+Package pdftex.def Info: polito_logo.png used on input line 62.
+(pdftex.def)             Requested size: 68.28383pt x 68.28226pt.
+LaTeX Font Info:    Try loading font information for U+msa on input line 75.
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd"
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Try loading font information for U+msb on input line 75.
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+) [1
+
+
+
+
+{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map} <C:/Users/Edoardo/Desktop/
+L.A/2-D Spectral Volumes/Thesis/polito_logo.png>] [2] [3
+
+] [4
+
+] [5
+
+] [6] [7
+
+] [8
+
+] [9] [10
+
+]
+("C:\Users\Edoardo\Desktop\L.A\2-D Spectral Volumes\Thesis\thesis.toc" [11])
+\tf@toc=\write5
+
+[12] [13
+
+] [14] [15] [16
+
+]
+Chapter 1.
+[1
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 222--223
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 225--226
+
+ []
+
+[2]
+Underfull \vbox (badness 1742) has occurred while \output is active []
+
+ [3]
+[4] <Grid1D.jpg, id=77, 562.1pt x 421.575pt>
+File: Grid1D.jpg Graphic file (type jpg)
+ <use Grid1D.jpg>
+Package pdftex.def Info: Grid1D.jpg used on input line 294.
+(pdftex.def)             Requested size: 337.2626pt x 252.94695pt.
+ [5]
+<Initial_average_1D.jpg, id=83, 562.1pt x 421.575pt>
+File: Initial_average_1D.jpg Graphic file (type jpg)
+
+<use Initial_average_1D.jpg>
+Package pdftex.def Info: Initial_average_1D.jpg used on input line 321.
+(pdftex.def)             Requested size: 337.2626pt x 252.94695pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[6 <C:/Users/Edoardo/Desktop/L.A/2-D Spectral Volumes/Thesis/Grid1D.jpg>]
+[7 <C:/Users/Edoardo/Desktop/L.A/2-D Spectral Volumes/Thesis/Initial_average_1D
+.jpg>]
+LaTeX Font Info:    Try loading font information for U+euf on input line 344.
+ ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsfonts\ueuf.fd"
+File: ueuf.fd 2013/01/14 v3.01 Euler Fraktur
+)
+[8] <Initial_reconstructed_1D.jpg, id=100, 562.1pt x 421.575pt>
+File: Initial_reconstructed_1D.jpg Graphic file (type jpg)
+
+<use Initial_reconstructed_1D.jpg>
+Package pdftex.def Info: Initial_reconstructed_1D.jpg used on input line 397.
+(pdftex.def)             Requested size: 337.2626pt x 252.94695pt.
+ [9 <C:/Users/Edoardo/Desktop/L.A/2-D Spectral Volumes/Thesis/Initial_reconstru
+cted_1D.jpg>] [10] [11]
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 488.
+
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\omscmr.fd"
+File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 488.
+ [12] [13]
+LaTeX Font Info:    Font shape `OT1/cmtt/bx/n' in size <12> not available
+(Font)              Font shape `OT1/cmtt/m/n' tried instead on input line 554.
+
+[14] <3timesteps1D_nolim_nocfd.jpg, id=120, 562.1pt x 421.575pt>
+File: 3timesteps1D_nolim_nocfd.jpg Graphic file (type jpg)
+
+<use 3timesteps1D_nolim_nocfd.jpg>
+Package pdftex.def Info: 3timesteps1D_nolim_nocfd.jpg used on input line 569.
+(pdftex.def)             Requested size: 337.2626pt x 252.94695pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<10timesteps1D_nolim_nocfd.jpg, id=121, 562.1pt x 421.575pt>
+File: 10timesteps1D_nolim_nocfd.jpg Graphic file (type jpg)
+
+<use 10timesteps1D_nolim_nocfd.jpg>
+Package pdftex.def Info: 10timesteps1D_nolim_nocfd.jpg used on input line 601.
+(pdftex.def)             Requested size: 224.83601pt x 168.627pt.
+
+<20timesteps1D_nolim_nocfd.jpg, id=122, 562.1pt x 421.575pt>
+File: 20timesteps1D_nolim_nocfd.jpg Graphic file (type jpg)
+
+<use 20timesteps1D_nolim_nocfd.jpg>
+Package pdftex.def Info: 20timesteps1D_nolim_nocfd.jpg used on input line 602.
+(pdftex.def)             Requested size: 224.83601pt x 168.627pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[15] [16 <C:/Users/Edoardo/Desktop/L.A/2-D Spectral Volumes/Thesis/3timesteps1D
+_nolim_nocfd.jpg>] [17 <C:/Users/Edoardo/Desktop/L.A/2-D Spectral Volumes/Thesi
+s/10timesteps1D_nolim_nocfd.jpg> <C:/Users/Edoardo/Desktop/L.A/2-D Spectral Vol
+umes/Thesis/20timesteps1D_nolim_nocfd.jpg>] [18]
+<minmod1.jpg, id=137, 448.67625pt x 247.67531pt>
+File: minmod1.jpg Graphic file (type jpg)
+ <use minmod1.jpg>
+Package pdftex.def Info: minmod1.jpg used on input line 687.
+(pdftex.def)             Requested size: 269.20782pt x 148.60632pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<minmod2.jpg, id=138, 452.4403pt x 227.34938pt>
+File: minmod2.jpg Graphic file (type jpg)
+ <use minmod2.jpg>
+Package pdftex.def Info: minmod2.jpg used on input line 695.
+(pdftex.def)             Requested size: 271.46628pt x 136.41068pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+LaTeX Font Warning: Font shape `OT1/cmss/m/it' in size <12> not available
+(Font)              Font shape `OT1/cmss/m/sl' tried instead on input line 720.
+
+
+[19]
+Overfull \vbox (8.90529pt too high) has occurred while \output is active []
+
+
+[20 <C:/Users/Edoardo/Desktop/L.A/2-D Spectral Volumes/Thesis/minmod1.jpg> <C:/
+Users/Edoardo/Desktop/L.A/2-D Spectral Volumes/Thesis/minmod2.jpg>]
+<10timesteps_nocfd.jpg, id=146, 562.1pt x 421.575pt>
+File: 10timesteps_nocfd.jpg Graphic file (type jpg)
+
+<use 10timesteps_nocfd.jpg>
+Package pdftex.def Info: 10timesteps_nocfd.jpg used on input line 749.
+(pdftex.def)             Requested size: 224.83601pt x 168.627pt.
+
+<20timesteps_nocfd.jpg, id=147, 562.1pt x 421.575pt>
+File: 20timesteps_nocfd.jpg Graphic file (type jpg)
+
+<use 20timesteps_nocfd.jpg>
+Package pdftex.def Info: 20timesteps_nocfd.jpg used on input line 750.
+(pdftex.def)             Requested size: 224.83601pt x 168.627pt.
+
+<40timesteps_nocfd.jpg, id=148, 562.1pt x 421.575pt>
+File: 40timesteps_nocfd.jpg Graphic file (type jpg)
+
+<use 40timesteps_nocfd.jpg>
+Package pdftex.def Info: 40timesteps_nocfd.jpg used on input line 751.
+(pdftex.def)             Requested size: 224.83601pt x 168.627pt.
+
+<80timesteps_nocfd.jpg, id=149, 562.1pt x 420.57124pt>
+File: 80timesteps_nocfd.jpg Graphic file (type jpg)
+
+<use 80timesteps_nocfd.jpg>
+Package pdftex.def Info: 80timesteps_nocfd.jpg used on input line 752.
+(pdftex.def)             Requested size: 224.83601pt x 168.22551pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[21] [22 <C:/Users/Edoardo/Desktop/L.A/2-D Spectral Volumes/Thesis/10timesteps_
+nocfd.jpg> <C:/Users/Edoardo/Desktop/L.A/2-D Spectral Volumes/Thesis/20timestep
+s_nocfd.jpg> <C:/Users/Edoardo/Desktop/L.A/2-D Spectral Volumes/Thesis/40timest
+eps_nocfd.jpg> <C:/Users/Edoardo/Desktop/L.A/2-D Spectral Volumes/Thesis/80time
+steps_nocfd.jpg>]
+Missing character: There is no â in font cmr12!
+Missing character: There is no € in font cmr12!
+Missing character: There is no “ in font cmr12!
+Missing character: There is no â in font cmr12!
+Missing character: There is no € in font cmr12!
+Missing character: There is no “ in font cmr12!
+ [23]
+Underfull \hbox (badness 10000) in paragraph at lines 805--806
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 821--822
+
+ []
+
+<10timesteps_complete.jpg, id=160, 562.1pt x 420.57124pt>
+File: 10timesteps_complete.jpg Graphic file (type jpg)
+
+<use 10timesteps_complete.jpg>
+Package pdftex.def Info: 10timesteps_complete.jpg used on input line 845.
+(pdftex.def)             Requested size: 224.83601pt x 168.22551pt.
+
+<20timesteps_complete.jpg, id=161, 562.1pt x 421.575pt>
+File: 20timesteps_complete.jpg Graphic file (type jpg)
+
+<use 20timesteps_complete.jpg>
+Package pdftex.def Info: 20timesteps_complete.jpg used on input line 846.
+(pdftex.def)             Requested size: 224.83601pt x 168.627pt.
+
+<40timesteps_complete.jpg, id=162, 562.1pt x 421.575pt>
+File: 40timesteps_complete.jpg Graphic file (type jpg)
+
+<use 40timesteps_complete.jpg>
+Package pdftex.def Info: 40timesteps_complete.jpg used on input line 847.
+(pdftex.def)             Requested size: 224.83601pt x 168.627pt.
+
+<80timesteps_complete.jpg, id=163, 562.1pt x 421.575pt>
+File: 80timesteps_complete.jpg Graphic file (type jpg)
+
+<use 80timesteps_complete.jpg>
+Package pdftex.def Info: 80timesteps_complete.jpg used on input line 848.
+(pdftex.def)             Requested size: 224.83601pt x 168.627pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[24] [25 <C:/Users/Edoardo/Desktop/L.A/2-D Spectral Volumes/Thesis/10timesteps_
+complete.jpg> <C:/Users/Edoardo/Desktop/L.A/2-D Spectral Volumes/Thesis/20times
+teps_complete.jpg> <C:/Users/Edoardo/Desktop/L.A/2-D Spectral Volumes/Thesis/40
+timesteps_complete.jpg> <C:/Users/Edoardo/Desktop/L.A/2-D Spectral Volumes/Thes
+is/80timesteps_complete.jpg>] [26]
+<tangent_grid.jpg, id=173, 562.1pt x 421.575pt>
+File: tangent_grid.jpg Graphic file (type jpg)
+ <use tangent_grid.jpg>
+Package pdftex.def Info: tangent_grid.jpg used on input line 893.
+(pdftex.def)             Requested size: 224.83601pt x 168.627pt.
+
+<tangent_initialaverage.jpg, id=174, 562.1pt x 421.575pt>
+File: tangent_initialaverage.jpg Graphic file (type jpg)
+
+<use tangent_initialaverage.jpg>
+Package pdftex.def Info: tangent_initialaverage.jpg used on input line 894.
+(pdftex.def)             Requested size: 224.83601pt x 168.627pt.
+
+<10timestep_tangent.jpg, id=175, 562.1pt x 420.57124pt>
+File: 10timestep_tangent.jpg Graphic file (type jpg)
+
+<use 10timestep_tangent.jpg>
+Package pdftex.def Info: 10timestep_tangent.jpg used on input line 902.
+(pdftex.def)             Requested size: 224.83601pt x 168.22551pt.
+
+<20timestep_tangent.jpg, id=176, 562.1pt x 420.57124pt>
+File: 20timestep_tangent.jpg Graphic file (type jpg)
+
+<use 20timestep_tangent.jpg>
+Package pdftex.def Info: 20timestep_tangent.jpg used on input line 903.
+(pdftex.def)             Requested size: 224.83601pt x 168.22551pt.
+
+<40timestep_tangent.jpg, id=177, 562.1pt x 421.575pt>
+File: 40timestep_tangent.jpg Graphic file (type jpg)
+
+<use 40timestep_tangent.jpg>
+Package pdftex.def Info: 40timestep_tangent.jpg used on input line 904.
+(pdftex.def)             Requested size: 224.83601pt x 168.627pt.
+
+<80timestep_tangent.jpg, id=178, 562.1pt x 421.575pt>
+File: 80timestep_tangent.jpg Graphic file (type jpg)
+
+<use 80timestep_tangent.jpg>
+Package pdftex.def Info: 80timestep_tangent.jpg used on input line 905.
+(pdftex.def)             Requested size: 224.83601pt x 168.627pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[27 <C:/Users/Edoardo/Desktop/L.A/2-D Spectral Volumes/Thesis/tangent_grid.jpg>
+ <C:/Users/Edoardo/Desktop/L.A/2-D Spectral Volumes/Thesis/tangent_initialavera
+ge.jpg>]
+Underfull \hbox (badness 10000) in paragraph at lines 916--917
+
+ []
+
+[28 <C:/Users/Edoardo/Desktop/L.A/2-D Spectral Volumes/Thesis/10timestep_tangen
+t.jpg> <C:/Users/Edoardo/Desktop/L.A/2-D Spectral Volumes/Thesis/20timestep_tan
+gent.jpg> <C:/Users/Edoardo/Desktop/L.A/2-D Spectral Volumes/Thesis/40timestep_
+tangent.jpg> <C:/Users/Edoardo/Desktop/L.A/2-D Spectral Volumes/Thesis/80timest
+ep_tangent.jpg>] [29] [30] <2Dgrid.jpg, id=192, 669.50125pt x 616.3025pt>
+File: 2Dgrid.jpg Graphic file (type jpg)
+
+<use 2Dgrid.jpg>
+Package pdftex.def Info: 2Dgrid.jpg used on input line 1005.
+(pdftex.def)             Requested size: 187.45908pt x 172.56352pt.
+ <Initialconditions2D.jpg, id=193, 836.12375pt x 668.4975pt>
+File: Initialconditions2D.jpg Graphic file (type jpg)
+
+<use Initialconditions2D.jpg>
+Package pdftex.def Info: Initialconditions2D.jpg used on input line 1006.
+(pdftex.def)             Requested size: 234.11305pt x 187.17802pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[31]
+Underfull \vbox (badness 7326) has occurred while \output is active []
+
+ [32 <C:/Users/Edoardo/Desktop/L.A/2-D Spectral Volumes/Thesis/2Dgrid.jpg> <C:/
+Users/Edoardo/Desktop/L.A/2-D Spectral Volumes/Thesis/Initialconditions2D.jpg>]
+
+<2Dreconstruction.jpg, id=200, 881.2925pt x 727.71875pt>
+File: 2Dreconstruction.jpg Graphic file (type jpg)
+
+<use 2Dreconstruction.jpg>
+Package pdftex.def Info: 2Dreconstruction.jpg used on input line 1076.
+(pdftex.def)             Requested size: 396.57796pt x 327.47041pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[33] [34 <C:/Users/Edoardo/Desktop/L.A/2-D Spectral Volumes/Thesis/2Dreconstruc
+tion.jpg>] [35] [36] <WallBC.jpg, id=215, 1204.5pt x 803.0pt>
+File: WallBC.jpg Graphic file (type jpg)
+ <use WallBC.jpg>
+Package pdftex.def Info: WallBC.jpg used on input line 1172.
+(pdftex.def)             Requested size: 421.58131pt x 281.05421pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[37] [38 <C:/Users/Edoardo/Desktop/L.A/2-D Spectral Volumes/Thesis/WallBC.jpg>]
+[39] <10timesteps_2D.jpg, id=226, 562.1pt x 421.575pt>
+File: 10timesteps_2D.jpg Graphic file (type jpg)
+
+<use 10timesteps_2D.jpg>
+Package pdftex.def Info: 10timesteps_2D.jpg used on input line 1267.
+(pdftex.def)             Requested size: 224.83601pt x 168.627pt.
+ <20timesteps_2D.jpg, id=227, 562.1pt x 421.575pt>
+File: 20timesteps_2D.jpg Graphic file (type jpg)
+
+<use 20timesteps_2D.jpg>
+Package pdftex.def Info: 20timesteps_2D.jpg used on input line 1268.
+(pdftex.def)             Requested size: 224.83601pt x 168.627pt.
+ <40timesteps_2D.jpg, id=228, 562.1pt x 421.575pt>
+File: 40timesteps_2D.jpg Graphic file (type jpg)
+
+<use 40timesteps_2D.jpg>
+Package pdftex.def Info: 40timesteps_2D.jpg used on input line 1269.
+(pdftex.def)             Requested size: 224.83601pt x 168.627pt.
+ <80timesteps_2D.jpg, id=229, 562.1pt x 421.575pt>
+File: 80timesteps_2D.jpg Graphic file (type jpg)
+
+<use 80timesteps_2D.jpg>
+Package pdftex.def Info: 80timesteps_2D.jpg used on input line 1270.
+(pdftex.def)             Requested size: 224.83601pt x 168.627pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[40]
+Underfull \hbox (badness 10000) in paragraph at lines 1279--1280
+
+ []
+
+[41 <C:/Users/Edoardo/Desktop/L.A/2-D Spectral Volumes/Thesis/10timesteps_2D.jp
+g> <C:/Users/Edoardo/Desktop/L.A/2-D Spectral Volumes/Thesis/20timesteps_2D.jpg
+> <C:/Users/Edoardo/Desktop/L.A/2-D Spectral Volumes/Thesis/40timesteps_2D.jpg>
+ <C:/Users/Edoardo/Desktop/L.A/2-D Spectral Volumes/Thesis/80timesteps_2D.jpg>]
+[42] <stencil.jpg, id=240, 1104.125pt x 501.875pt>
+File: stencil.jpg Graphic file (type jpg)
+ <use stencil.jpg>
+Package pdftex.def Info: stencil.jpg used on input line 1354.
+(pdftex.def)             Requested size: 441.64218pt x 200.74643pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<SV2Dlinear.jpg, id=241, 413.29407pt x 190.46156pt>
+File: SV2Dlinear.jpg Graphic file (type jpg)
+ <use SV2Dlinear.jpg>
+Package pdftex.def Info: SV2Dlinear.jpg used on input line 1360.
+(pdftex.def)             Requested size: 123.98917pt x 57.1389pt.
+
+<SV2Dquadratic.jpg, id=242, 333.49594pt x 190.46156pt>
+File: SV2Dquadratic.jpg Graphic file (type jpg)
+ <use SV2Dquadratic.jpg>
+Package pdftex.def Info: SV2Dquadratic.jpg used on input line 1361.
+(pdftex.def)             Requested size: 166.74756pt x 95.23053pt.
+
+<SV2Dcubic.jpg, id=243, 263.48438pt x 135.50626pt>
+File: SV2Dcubic.jpg Graphic file (type jpg)
+ <use SV2Dcubic.jpg>
+Package pdftex.def Info: SV2Dcubic.jpg used on input line 1362.
+(pdftex.def)             Requested size: 131.74185pt x 67.75294pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<3Dsv.jpeg, id=244, 803.0pt x 301.125pt>
+File: 3Dsv.jpeg Graphic file (type jpg)
+ <use 3Dsv.jpeg>
+Package pdftex.def Info: 3Dsv.jpeg used on input line 1369.
+(pdftex.def)             Requested size: 441.65137pt x 165.61925pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[43] [44 <C:/Users/Edoardo/Desktop/L.A/2-D Spectral Volumes/Thesis/stencil.jpg>
+ <C:/Users/Edoardo/Desktop/L.A/2-D Spectral Volumes/Thesis/SV2Dlinear.jpg> <C:/
+Users/Edoardo/Desktop/L.A/2-D Spectral Volumes/Thesis/SV2Dquadratic.jpg> <C:/Us
+ers/Edoardo/Desktop/L.A/2-D Spectral Volumes/Thesis/SV2Dcubic.jpg>] [45 <C:/Use
+rs/Edoardo/Desktop/L.A/2-D Spectral Volumes/Thesis/3Dsv.jpeg>] [46
+
+]
+Chapter 2.
+[47]
+Underfull \hbox (badness 10000) in paragraph at lines 1399--1400
+
+ []
+
+[48] [49] [50] <C0.jpg, id=270, 562.1pt x 420.57124pt>
+File: C0.jpg Graphic file (type jpg)
+ <use C0.jpg>
+Package pdftex.def Info: C0.jpg used on input line 1498.
+(pdftex.def)             Requested size: 281.04932pt x 210.28511pt.
+
+<an0.jpg, id=271, 562.1pt x 420.57124pt>
+File: an0.jpg Graphic file (type jpg)
+ <use an0.jpg>
+Package pdftex.def Info: an0.jpg used on input line 1499.
+(pdftex.def)             Requested size: 281.04932pt x 210.28511pt.
+
+<diff0.jpg, id=272, 562.1pt x 421.575pt>
+File: diff0.jpg Graphic file (type jpg)
+ <use diff0.jpg>
+Package pdftex.def Info: diff0.jpg used on input line 1500.
+(pdftex.def)             Requested size: 281.04932pt x 210.78697pt.
+
+<C50.jpg, id=273, 562.1pt x 421.575pt>
+File: C50.jpg Graphic file (type jpg)
+ <use C50.jpg>
+Package pdftex.def Info: C50.jpg used on input line 1506.
+(pdftex.def)             Requested size: 281.04932pt x 210.78697pt.
+
+<an50.jpg, id=274, 562.1pt x 421.575pt>
+File: an50.jpg Graphic file (type jpg)
+ <use an50.jpg>
+Package pdftex.def Info: an50.jpg used on input line 1507.
+(pdftex.def)             Requested size: 281.04932pt x 210.78697pt.
+
+<diff50.jpg, id=275, 562.1pt x 421.575pt>
+File: diff50.jpg Graphic file (type jpg)
+ <use diff50.jpg>
+Package pdftex.def Info: diff50.jpg used on input line 1508.
+(pdftex.def)             Requested size: 281.04932pt x 210.78697pt.
+
+<C100.jpg, id=276, 562.1pt x 421.575pt>
+File: C100.jpg Graphic file (type jpg)
+ <use C100.jpg>
+Package pdftex.def Info: C100.jpg used on input line 1514.
+(pdftex.def)             Requested size: 281.04932pt x 210.78697pt.
+
+<an100.jpg, id=277, 562.1pt x 421.575pt>
+File: an100.jpg Graphic file (type jpg)
+ <use an100.jpg>
+Package pdftex.def Info: an100.jpg used on input line 1515.
+(pdftex.def)             Requested size: 281.04932pt x 210.78697pt.
+
+<diff100.jpg, id=278, 562.1pt x 421.575pt>
+File: diff100.jpg Graphic file (type jpg)
+ <use diff100.jpg>
+Package pdftex.def Info: diff100.jpg used on input line 1516.
+(pdftex.def)             Requested size: 281.04932pt x 210.78697pt.
+
+<C500.jpg, id=279, 562.1pt x 421.575pt>
+File: C500.jpg Graphic file (type jpg)
+ <use C500.jpg>
+Package pdftex.def Info: C500.jpg used on input line 1522.
+(pdftex.def)             Requested size: 281.04932pt x 210.78697pt.
+
+<an500.jpg, id=280, 562.1pt x 421.575pt>
+File: an500.jpg Graphic file (type jpg)
+ <use an500.jpg>
+Package pdftex.def Info: an500.jpg used on input line 1523.
+(pdftex.def)             Requested size: 281.04932pt x 210.78697pt.
+
+<diff500.jpg, id=281, 562.1pt x 421.575pt>
+File: diff500.jpg Graphic file (type jpg)
+ <use diff500.jpg>
+Package pdftex.def Info: diff500.jpg used on input line 1524.
+(pdftex.def)             Requested size: 281.04932pt x 210.78697pt.
+
+<C900.jpg, id=282, 562.1pt x 421.575pt>
+File: C900.jpg Graphic file (type jpg)
+ <use C900.jpg>
+Package pdftex.def Info: C900.jpg used on input line 1530.
+(pdftex.def)             Requested size: 281.04932pt x 210.78697pt.
+
+<an900.jpg, id=283, 562.1pt x 421.575pt>
+File: an900.jpg Graphic file (type jpg)
+ <use an900.jpg>
+Package pdftex.def Info: an900.jpg used on input line 1531.
+(pdftex.def)             Requested size: 281.04932pt x 210.78697pt.
+
+<diff900.jpg, id=284, 562.1pt x 421.575pt>
+File: diff900.jpg Graphic file (type jpg)
+ <use diff900.jpg>
+Package pdftex.def Info: diff900.jpg used on input line 1532.
+(pdftex.def)             Requested size: 281.04932pt x 210.78697pt.
+ [51] [52 <C:/Users/Edoardo/Desktop/L.A/2-D Spectral Volumes/Thesis/C0.jpg> <C:
+/Users/Edoardo/Desktop/L.A/2-D Spectral Volumes/Thesis/an0.jpg> <C:/Users/Edoar
+do/Desktop/L.A/2-D Spectral Volumes/Thesis/diff0.jpg>] [53 <C:/Users/Edoardo/De
+sktop/L.A/2-D Spectral Volumes/Thesis/C50.jpg> <C:/Users/Edoardo/Desktop/L.A/2-
+D Spectral Volumes/Thesis/an50.jpg> <C:/Users/Edoardo/Desktop/L.A/2-D Spectral 
+Volumes/Thesis/diff50.jpg>] [54 <C:/Users/Edoardo/Desktop/L.A/2-D Spectral Volu
+mes/Thesis/C100.jpg> <C:/Users/Edoardo/Desktop/L.A/2-D Spectral Volumes/Thesis/
+an100.jpg> <C:/Users/Edoardo/Desktop/L.A/2-D Spectral Volumes/Thesis/diff100.jp
+g>] [55 <C:/Users/Edoardo/Desktop/L.A/2-D Spectral Volumes/Thesis/C500.jpg> <C:
+/Users/Edoardo/Desktop/L.A/2-D Spectral Volumes/Thesis/an500.jpg> <C:/Users/Edo
+ardo/Desktop/L.A/2-D Spectral Volumes/Thesis/diff500.jpg>] [56 <C:/Users/Edoard
+o/Desktop/L.A/2-D Spectral Volumes/Thesis/C900.jpg> <C:/Users/Edoardo/Desktop/L
+.A/2-D Spectral Volumes/Thesis/an900.jpg> <C:/Users/Edoardo/Desktop/L.A/2-D Spe
+ctral Volumes/Thesis/diff900.jpg>] [57]
+Underfull \hbox (badness 10000) in paragraph at lines 1588--1589
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1591--1592
+
+ []
+
+[58]
+Underfull \vbox (badness 1038) has occurred while \output is active []
+
+ [59]
+[60] [61] [62] [63] [64] [65] [66] [67] [68] [69] [70] [71]
+Overfull \hbox (13.761pt too wide) in alignment at lines 2087--2090
+ [][][] []
+ []
+
+[72] [73] [74] [75] [76] [77] [78
+
+]
+Chapter 3.
+
+Underfull \hbox (badness 10000) in paragraph at lines 2237--2238
+
+ []
+
+[79] <inheritance.png, id=377, 542.025pt x 487.8225pt>
+File: inheritance.png Graphic file (type png)
+ <use inheritance.png>
+Package pdftex.def Info: inheritance.png used on input line 2252.
+(pdftex.def)             Requested size: 325.2175pt x 292.69576pt.
+
+[80 <C:/Users/Edoardo/Desktop/L.A/2-D Spectral Volumes/Thesis/inheritance.png>]
+LaTeX Font Info:    Font shape `OT1/cmtt/bx/n' in size <10> not available
+(Font)              Font shape `OT1/cmtt/m/n' tried instead on input line 2270.
+
+[81]
+Underfull \hbox (badness 10000) in paragraph at lines 2318--2319
+
+ []
+
+Missing character: There is no â in font cmr12!
+Missing character: There is no € in font cmr12!
+Missing character: There is no ™ in font cmr12!
+Missing character: There is no â in font cmr12!
+Missing character: There is no € in font cmr12!
+Missing character: There is no ™ in font cmr12!
+[82] <mesh_generation.png, id=389, 714.41907pt x 621.82312pt>
+File: mesh_generation.png Graphic file (type png)
+
+<use mesh_generation.png>
+Package pdftex.def Info: mesh_generation.png used on input line 2327.
+(pdftex.def)             Requested size: 464.3669pt x 404.18024pt.
+
+Overfull \hbox (9.12279pt too wide) in paragraph at lines 2327--2328
+ [] 
+ []
+
+LaTeX Font Info:    Font shape `OT1/cmtt/bx/n' in size <14.4> not available
+(Font)              Font shape `OT1/cmtt/m/n' tried instead on input line 2332.
+
+[83 <C:/Users/Edoardo/Desktop/L.A/2-D Spectral Volumes/Thesis/mesh_generation.p
+ng>] [84] <neighbors_elements.jpg, id=396, 401.5pt x 401.5pt>
+File: neighbors_elements.jpg Graphic file (type jpg)
+
+<use neighbors_elements.jpg>
+Package pdftex.def Info: neighbors_elements.jpg used on input line 2360.
+(pdftex.def)             Requested size: 260.9719pt x 260.9719pt.
+ [85 <C:/Users/Edoardo/Desktop/L.A/2-D Spectral Volumes/Thesis/neighbors_elemen
+ts.jpg>]
+<circle0.jpg, id=400, 841.1425pt x 888.31876pt>
+File: circle0.jpg Graphic file (type jpg)
+ <use circle0.jpg>
+Package pdftex.def Info: circle0.jpg used on input line 2389.
+(pdftex.def)             Requested size: 210.28511pt x 222.07915pt.
+
+<circle1.jpg, id=401, 841.1425pt x 888.31876pt>
+File: circle1.jpg Graphic file (type jpg)
+ <use circle1.jpg>
+Package pdftex.def Info: circle1.jpg used on input line 2390.
+(pdftex.def)             Requested size: 210.28511pt x 222.07915pt.
+
+<circle-2.jpg, id=402, 772.8875pt x 843.15pt>
+File: circle-2.jpg Graphic file (type jpg)
+ <use circle-2.jpg>
+Package pdftex.def Info: circle-2.jpg used on input line 2391.
+(pdftex.def)             Requested size: 208.6824pt x 227.65353pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[86] [87 <C:/Users/Edoardo/Desktop/L.A/2-D Spectral Volumes/Thesis/circle0.jpg>
+ <C:/Users/Edoardo/Desktop/L.A/2-D Spectral Volumes/Thesis/circle1.jpg> <C:/Use
+rs/Edoardo/Desktop/L.A/2-D Spectral Volumes/Thesis/circle-2.jpg>]
+Underfull \hbox (badness 10000) in paragraph at lines 2413--2414
+
+ []
+
+<gmsh.png, id=410, 1137.048pt x 616.704pt>
+File: gmsh.png Graphic file (type png)
+ <use gmsh.png>
+Package pdftex.def Info: gmsh.png used on input line 2419.
+(pdftex.def)             Requested size: 113.81102pt x 61.72105pt.
+
+<mesh_circle.jpg, id=412, 1029.8475pt x 1076.02pt>
+File: mesh_circle.jpg Graphic file (type jpg)
+ <use mesh_circle.jpg>
+Package pdftex.def Info: mesh_circle.jpg used on input line 2432.
+(pdftex.def)             Requested size: 205.96585pt x 215.20018pt.
+
+<mesh_16.jpg, id=413, 1029.8475pt x 1076.02pt>
+File: mesh_16.jpg Graphic file (type jpg)
+ <use mesh_16.jpg>
+Package pdftex.def Info: mesh_16.jpg used on input line 2433.
+(pdftex.def)             Requested size: 205.96585pt x 215.20018pt.
+
+<mesh_64.jpg, id=414, 1029.8475pt x 1076.02pt>
+File: mesh_64.jpg Graphic file (type jpg)
+ <use mesh_64.jpg>
+Package pdftex.def Info: mesh_64.jpg used on input line 2434.
+(pdftex.def)             Requested size: 205.96585pt x 215.20018pt.
+
+<mesh_unstr.jpg, id=415, 1029.8475pt x 1076.02pt>
+File: mesh_unstr.jpg Graphic file (type jpg)
+ <use mesh_unstr.jpg>
+Package pdftex.def Info: mesh_unstr.jpg used on input line 2435.
+(pdftex.def)             Requested size: 205.96585pt x 215.20018pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[88 <C:/Users/Edoardo/Desktop/L.A/2-D Spectral Volumes/Thesis/gmsh.png>]
+<xadj.jpg, id=420, 1154.3125pt x 451.6875pt>
+File: xadj.jpg Graphic file (type jpg)
+ <use xadj.jpg>
+Package pdftex.def Info: xadj.jpg used on input line 2483.
+(pdftex.def)             Requested size: 461.71683pt x 180.67178pt.
+
+Overfull \hbox (6.47272pt too wide) in paragraph at lines 2483--2484
+ [] 
+ []
+
+[89]
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2491--2492
+
+ []
+
+<parmetis.jpg, id=424, 191.71625pt x 132.495pt>
+File: parmetis.jpg Graphic file (type jpg)
+ <use parmetis.jpg>
+Package pdftex.def Info: parmetis.jpg used on input line 2497.
+(pdftex.def)             Requested size: 113.81102pt x 78.65657pt.
+
+Overfull \hbox (7.1378pt too wide) in paragraph at lines 2505--2506
+[]\OT1/cmr/m/n/12 Since the al-go-rithm can only par-ti-tion graphs, this func-
+tion con-tains a call to \OT1/cmtt/m/n/12 Mesh2Dual\OT1/cmr/m/n/12 :
+ []
+
+[90 <C:/Users/Edoardo/Desktop/L.A/2-D Spectral Volumes/Thesis/parmetis.jpg>]
+Underfull \hbox (badness 10000) in paragraph at lines 2523--2524
+
+ []
+
+<sv_logic.png, id=428, 654.19406pt x 690.32906pt>
+File: sv_logic.png Graphic file (type png)
+ <use sv_logic.png>
+Package pdftex.def Info: sv_logic.png used on input line 2536.
+(pdftex.def)             Requested size: 490.64433pt x 517.74553pt.
+
+Overfull \hbox (35.40022pt too wide) in paragraph at lines 2536--2537
+ [] 
+ []
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[91]
+Overfull \hbox (25.31087pt too wide) in paragraph at lines 2565--2566
+ [] 
+ []
+
+
+Overfull \hbox (25.31087pt too wide) in paragraph at lines 2588--2589
+ [] 
+ []
+
+[92]
+Overfull \hbox (17.56381pt too wide) in paragraph at lines 2596--2597
+[]\OT1/cmr/m/n/12 The avail-able equa-tions by now are \OT1/cmtt/m/n/12 advec\O
+T1/cmr/m/n/12 , \OT1/cmtt/m/n/12 burgers\OT1/cmr/m/n/12 , \OT1/cmtt/m/n/12 burg
+ers[]sys\OT1/cmr/m/n/12 , \OT1/cmtt/m/n/12 advection[]diffusion\OT1/cmr/m/n/12 
+,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2597--2599
+
+ []
+
+[93] [94]
+Overfull \hbox (25.31087pt too wide) in paragraph at lines 2683--2684
+ [] 
+ []
+
+
+Overfull \hbox (18.81691pt too wide) in paragraph at lines 2687--2688
+[]\OT1/cmr/m/n/12 The func-tions \OT1/cmtt/m/n/12 compute[]rec[]variables\OT1/c
+mr/m/n/12 , \OT1/cmtt/m/n/12 compute[]rec[]sources \OT1/cmr/m/n/12 and \OT1/cmt
+t/m/n/12 compute[]rec[]ghosted
+ []
+
+[95]
+Overfull \hbox (25.31087pt too wide) in paragraph at lines 2719--2720
+ [] 
+ []
+
+[96] [97] [98] [99] [100] [101 <C:/Users/Edoardo/Desktop/L.A/2-D Spectral Volum
+es/Thesis/mesh_circle.jpg> <C:/Users/Edoardo/Desktop/L.A/2-D Spectral Volumes/T
+hesis/mesh_16.jpg> <C:/Users/Edoardo/Desktop/L.A/2-D Spectral Volumes/Thesis/me
+sh_64.jpg> <C:/Users/Edoardo/Desktop/L.A/2-D Spectral Volumes/Thesis/mesh_unstr
+.jpg>] [102 <C:/Users/Edoardo/Desktop/L.A/2-D Spectral Volumes/Thesis/xadj.jpg>
+] [103 <C:/Users/Edoardo/Desktop/L.A/2-D Spectral Volumes/Thesis/sv_logic.png>]
+[104
+
+]
+Chapter 4.
+Missing character: There is no â in font cmr12!
+Missing character: There is no € in font cmr12!
+Missing character: There is no ™ in font cmr12!
+Missing character: There is no â in font cmr12!
+Missing character: There is no € in font cmr12!
+Missing character: There is no ” in font cmr12!
+[105] <ICFindirect.jpg, id=477, 702.625pt x 171.64125pt>
+File: ICFindirect.jpg Graphic file (type jpg)
+ <use ICFindirect.jpg>
+Package pdftex.def Info: ICFindirect.jpg used on input line 2794.
+(pdftex.def)             Requested size: 456.70084pt x 111.56548pt.
+
+Overfull \hbox (1.45673pt too wide) in paragraph at lines 2794--2795
+ [] 
+ []
+
+Missing character: There is no â in font cmr12!
+Missing character: There is no € in font cmr12!
+Missing character: There is no ™ in font cmr12!
+<ICFtarget.jpg, id=478, 385.44pt x 349.305pt>
+File: ICFtarget.jpg Graphic file (type jpg)
+ <use ICFtarget.jpg>
+Package pdftex.def Info: ICFtarget.jpg used on input line 2802.
+(pdftex.def)             Requested size: 192.71953pt x 174.65207pt.
+
+<ICFtarget2.jpg, id=479, 219.82124pt x 205.76875pt>
+File: ICFtarget2.jpg Graphic file (type jpg)
+ <use ICFtarget2.jpg>
+Package pdftex.def Info: ICFtarget2.jpg used on input line 2803.
+(pdftex.def)             Requested size: 186.84892pt x 174.90425pt.
+Missing character: There is no â in font cmr10!
+Missing character: There is no € in font cmr10!
+Missing character: There is no “ in font cmr10!
+Missing character: There is no â in font cmr10!
+Missing character: There is no € in font cmr10!
+Missing character: There is no ™ in font cmr10!
+Missing character: There is no â in font cmr10!
+Missing character: There is no € in font cmr10!
+Missing character: There is no “ in font cmr10!
+Missing character: There is no â in font cmr10!
+Missing character: There is no € in font cmr10!
+Missing character: There is no ™ in font cmr10!
+
+<ICFtarget3.jpg, id=480, 592.2125pt x 285.065pt>
+File: ICFtarget3.jpg Graphic file (type jpg)
+ <use ICFtarget3.jpg>
+Package pdftex.def Info: ICFtarget3.jpg used on input line 2809.
+(pdftex.def)             Requested size: 384.93356pt x 185.29005pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[106 <C:/Users/Edoardo/Desktop/L.A/2-D Spectral Volumes/Thesis/ICFindirect.jpg>
+ <C:/Users/Edoardo/Desktop/L.A/2-D Spectral Volumes/Thesis/ICFtarget.jpg> <C:/U
+sers/Edoardo/Desktop/L.A/2-D Spectral Volumes/Thesis/ICFtarget2.jpg>]
+<ignitions.jpg, id=484, 1261.71375pt x 659.46375pt>
+File: ignitions.jpg Graphic file (type jpg)
+ <use ignitions.jpg>
+Package pdftex.def Info: ignitions.jpg used on input line 2821.
+(pdftex.def)             Requested size: 441.60643pt x 230.81577pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [107 <C:/Users/Edoardo/Desktop/L.A/2-D Spectral Volumes/Thesis/ICFtarget3.jpg>
+]
+Missing character: There is no â in font cmr12!
+Missing character: There is no € in font cmr12!
+Missing character: There is no ” in font cmr12!
+
+Underfull \hbox (badness 10000) in paragraph at lines 2837--2838
+
+ []
+
+[108 <C:/Users/Edoardo/Desktop/L.A/2-D Spectral Volumes/Thesis/ignitions.jpg>]
+<Onefluid_Density_20.jpg, id=491, 1204.5pt x 903.375pt>
+File: Onefluid_Density_20.jpg Graphic file (type jpg)
+
+<use Onefluid_Density_20.jpg>
+Package pdftex.def Info: Onefluid_Density_20.jpg used on input line 2853.
+(pdftex.def)             Requested size: 301.12427pt x 225.8432pt.
+
+<Temperature_20.jpg, id=492, 1204.5pt x 903.375pt>
+File: Temperature_20.jpg Graphic file (type jpg)
+ <use Temperature_20.jpg>
+Package pdftex.def Info: Temperature_20.jpg used on input line 2854.
+(pdftex.def)             Requested size: 301.12427pt x 225.8432pt.
+
+<Total_pressure_20.jpg, id=493, 1204.5pt x 903.375pt>
+File: Total_pressure_20.jpg Graphic file (type jpg)
+
+<use Total_pressure_20.jpg>
+Package pdftex.def Info: Total_pressure_20.jpg used on input line 2855.
+(pdftex.def)             Requested size: 301.12427pt x 225.8432pt.
+
+
+LaTeX Warning: Float too large for page by 0.34651pt on input line 2858.
+
+<Onefluid_Velocity_x_20.jpg, id=494, 1204.5pt x 903.375pt>
+File: Onefluid_Velocity_x_20.jpg Graphic file (type jpg)
+
+<use Onefluid_Velocity_x_20.jpg>
+Package pdftex.def Info: Onefluid_Velocity_x_20.jpg used on input line 2860.
+(pdftex.def)             Requested size: 301.12427pt x 225.8432pt.
+
+<Onefluid_Velocity_y_20.jpg, id=495, 1204.5pt x 903.375pt>
+File: Onefluid_Velocity_y_20.jpg Graphic file (type jpg)
+
+<use Onefluid_Velocity_y_20.jpg>
+Package pdftex.def Info: Onefluid_Velocity_y_20.jpg used on input line 2861.
+(pdftex.def)             Requested size: 301.12427pt x 225.8432pt.
+
+<Radial_velocity_20.jpg, id=496, 1204.5pt x 903.375pt>
+File: Radial_velocity_20.jpg Graphic file (type jpg)
+
+<use Radial_velocity_20.jpg>
+Package pdftex.def Info: Radial_velocity_20.jpg used on input line 2862.
+(pdftex.def)             Requested size: 301.12427pt x 225.8432pt.
+
+
+LaTeX Warning: Float too large for page by 0.34651pt on input line 2866.
+
+<Onefluid_Density_40.jpg, id=497, 1204.5pt x 903.375pt>
+File: Onefluid_Density_40.jpg Graphic file (type jpg)
+
+<use Onefluid_Density_40.jpg>
+Package pdftex.def Info: Onefluid_Density_40.jpg used on input line 2871.
+(pdftex.def)             Requested size: 301.12427pt x 225.8432pt.
+
+<Temperature_40.jpg, id=498, 1204.5pt x 903.375pt>
+File: Temperature_40.jpg Graphic file (type jpg)
+ <use Temperature_40.jpg>
+Package pdftex.def Info: Temperature_40.jpg used on input line 2872.
+(pdftex.def)             Requested size: 301.12427pt x 225.8432pt.
+
+<Total_pressure_40.jpg, id=499, 1204.5pt x 903.375pt>
+File: Total_pressure_40.jpg Graphic file (type jpg)
+
+<use Total_pressure_40.jpg>
+Package pdftex.def Info: Total_pressure_40.jpg used on input line 2873.
+(pdftex.def)             Requested size: 301.12427pt x 225.8432pt.
+
+
+LaTeX Warning: Float too large for page by 0.34651pt on input line 2876.
+
+<Onefluid_Velocity_x_40.jpg, id=500, 1204.5pt x 903.375pt>
+File: Onefluid_Velocity_x_40.jpg Graphic file (type jpg)
+
+<use Onefluid_Velocity_x_40.jpg>
+Package pdftex.def Info: Onefluid_Velocity_x_40.jpg used on input line 2878.
+(pdftex.def)             Requested size: 301.12427pt x 225.8432pt.
+
+<Onefluid_Velocity_y_40.jpg, id=501, 1204.5pt x 903.375pt>
+File: Onefluid_Velocity_y_40.jpg Graphic file (type jpg)
+
+<use Onefluid_Velocity_y_40.jpg>
+Package pdftex.def Info: Onefluid_Velocity_y_40.jpg used on input line 2879.
+(pdftex.def)             Requested size: 301.12427pt x 225.8432pt.
+
+<Radial_velocity_40.jpg, id=502, 1204.5pt x 903.375pt>
+File: Radial_velocity_40.jpg Graphic file (type jpg)
+
+<use Radial_velocity_40.jpg>
+Package pdftex.def Info: Radial_velocity_40.jpg used on input line 2880.
+(pdftex.def)             Requested size: 301.12427pt x 225.8432pt.
+
+
+LaTeX Warning: Float too large for page by 0.34651pt on input line 2884.
+
+<Onefluid_Density_60.jpg, id=503, 1204.5pt x 903.375pt>
+File: Onefluid_Density_60.jpg Graphic file (type jpg)
+
+<use Onefluid_Density_60.jpg>
+Package pdftex.def Info: Onefluid_Density_60.jpg used on input line 2889.
+(pdftex.def)             Requested size: 301.12427pt x 225.8432pt.
+
+<Temperature_60.jpg, id=504, 1204.5pt x 903.375pt>
+File: Temperature_60.jpg Graphic file (type jpg)
+ <use Temperature_60.jpg>
+Package pdftex.def Info: Temperature_60.jpg used on input line 2890.
+(pdftex.def)             Requested size: 301.12427pt x 225.8432pt.
+
+<Total_pressure_60.jpg, id=505, 1204.5pt x 903.375pt>
+File: Total_pressure_60.jpg Graphic file (type jpg)
+
+<use Total_pressure_60.jpg>
+Package pdftex.def Info: Total_pressure_60.jpg used on input line 2891.
+(pdftex.def)             Requested size: 301.12427pt x 225.8432pt.
+
+
+LaTeX Warning: Float too large for page by 0.34651pt on input line 2894.
+
+<Onefluid_Velocity_x_60.jpg, id=506, 1204.5pt x 903.375pt>
+File: Onefluid_Velocity_x_60.jpg Graphic file (type jpg)
+
+<use Onefluid_Velocity_x_60.jpg>
+Package pdftex.def Info: Onefluid_Velocity_x_60.jpg used on input line 2896.
+(pdftex.def)             Requested size: 301.12427pt x 225.8432pt.
+
+<Onefluid_Velocity_y_60.jpg, id=507, 1204.5pt x 903.375pt>
+File: Onefluid_Velocity_y_60.jpg Graphic file (type jpg)
+
+<use Onefluid_Velocity_y_60.jpg>
+Package pdftex.def Info: Onefluid_Velocity_y_60.jpg used on input line 2897.
+(pdftex.def)             Requested size: 301.12427pt x 225.8432pt.
+
+<Radial_velocity_60.jpg, id=508, 1204.5pt x 903.375pt>
+File: Radial_velocity_60.jpg Graphic file (type jpg)
+
+<use Radial_velocity_60.jpg>
+Package pdftex.def Info: Radial_velocity_60.jpg used on input line 2898.
+(pdftex.def)             Requested size: 301.12427pt x 225.8432pt.
+
+
+LaTeX Warning: Float too large for page by 0.34651pt on input line 2902.
+
+<Onefluid_Density_80.jpg, id=509, 1204.5pt x 903.375pt>
+File: Onefluid_Density_80.jpg Graphic file (type jpg)
+
+<use Onefluid_Density_80.jpg>
+Package pdftex.def Info: Onefluid_Density_80.jpg used on input line 2906.
+(pdftex.def)             Requested size: 301.12427pt x 225.8432pt.
+
+<Temperature_80.jpg, id=510, 1204.5pt x 903.375pt>
+File: Temperature_80.jpg Graphic file (type jpg)
+ <use Temperature_80.jpg>
+Package pdftex.def Info: Temperature_80.jpg used on input line 2907.
+(pdftex.def)             Requested size: 301.12427pt x 225.8432pt.
+
+<Total_pressure_80.jpg, id=511, 1204.5pt x 903.375pt>
+File: Total_pressure_80.jpg Graphic file (type jpg)
+
+<use Total_pressure_80.jpg>
+Package pdftex.def Info: Total_pressure_80.jpg used on input line 2908.
+(pdftex.def)             Requested size: 301.12427pt x 225.8432pt.
+
+
+LaTeX Warning: Float too large for page by 0.34651pt on input line 2911.
+
+<Onefluid_Velocity_x_80.jpg, id=512, 1204.5pt x 903.375pt>
+File: Onefluid_Velocity_x_80.jpg Graphic file (type jpg)
+
+<use Onefluid_Velocity_x_80.jpg>
+Package pdftex.def Info: Onefluid_Velocity_x_80.jpg used on input line 2913.
+(pdftex.def)             Requested size: 301.12427pt x 225.8432pt.
+
+<Onefluid_Velocity_y_80.jpg, id=513, 1204.5pt x 903.375pt>
+File: Onefluid_Velocity_y_80.jpg Graphic file (type jpg)
+
+<use Onefluid_Velocity_y_80.jpg>
+Package pdftex.def Info: Onefluid_Velocity_y_80.jpg used on input line 2914.
+(pdftex.def)             Requested size: 301.12427pt x 225.8432pt.
+
+<Radial_velocity_80.jpg, id=514, 1204.5pt x 903.375pt>
+File: Radial_velocity_80.jpg Graphic file (type jpg)
+
+<use Radial_velocity_80.jpg>
+Package pdftex.def Info: Radial_velocity_80.jpg used on input line 2915.
+(pdftex.def)             Requested size: 301.12427pt x 225.8432pt.
+
+
+LaTeX Warning: Float too large for page by 0.34651pt on input line 2919.
+
+<Onefluid_Density_100.jpg, id=515, 1204.5pt x 903.375pt>
+File: Onefluid_Density_100.jpg Graphic file (type jpg)
+
+<use Onefluid_Density_100.jpg>
+Package pdftex.def Info: Onefluid_Density_100.jpg used on input line 2923.
+(pdftex.def)             Requested size: 301.12427pt x 225.8432pt.
+
+<Temperature_100.jpg, id=516, 1204.5pt x 903.375pt>
+File: Temperature_100.jpg Graphic file (type jpg)
+ <use Temperature_100.jpg>
+Package pdftex.def Info: Temperature_100.jpg used on input line 2924.
+(pdftex.def)             Requested size: 301.12427pt x 225.8432pt.
+
+<Total_pressure_100.jpg, id=517, 1204.5pt x 903.375pt>
+File: Total_pressure_100.jpg Graphic file (type jpg)
+
+<use Total_pressure_100.jpg>
+Package pdftex.def Info: Total_pressure_100.jpg used on input line 2925.
+(pdftex.def)             Requested size: 301.12427pt x 225.8432pt.
+
+
+LaTeX Warning: Float too large for page by 0.34651pt on input line 2928.
+
+<Onefluid_Velocity_x_100.jpg, id=518, 1204.5pt x 903.375pt>
+File: Onefluid_Velocity_x_100.jpg Graphic file (type jpg)
+
+<use Onefluid_Velocity_x_100.jpg>
+Package pdftex.def Info: Onefluid_Velocity_x_100.jpg used on input line 2930.
+(pdftex.def)             Requested size: 301.12427pt x 225.8432pt.
+
+<Onefluid_Velocity_y_100.jpg, id=519, 1204.5pt x 903.375pt>
+File: Onefluid_Velocity_y_100.jpg Graphic file (type jpg)
+
+<use Onefluid_Velocity_y_100.jpg>
+Package pdftex.def Info: Onefluid_Velocity_y_100.jpg used on input line 2931.
+(pdftex.def)             Requested size: 301.12427pt x 225.8432pt.
+
+<Radial_velocity_100.jpg, id=520, 1204.5pt x 903.375pt>
+File: Radial_velocity_100.jpg Graphic file (type jpg)
+
+<use Radial_velocity_100.jpg>
+Package pdftex.def Info: Radial_velocity_100.jpg used on input line 2932.
+(pdftex.def)             Requested size: 301.12427pt x 225.8432pt.
+
+
+LaTeX Warning: Float too large for page by 0.34651pt on input line 2936.
+
+[109] [110 <C:/Users/Edoardo/Desktop/L.A/2-D Spectral Volumes/Thesis/Onefluid_D
+ensity_20.jpg> <C:/Users/Edoardo/Desktop/L.A/2-D Spectral Volumes/Thesis/Temper
+ature_20.jpg> <C:/Users/Edoardo/Desktop/L.A/2-D Spectral Volumes/Thesis/Total_p
+ressure_20.jpg>] [111 <C:/Users/Edoardo/Desktop/L.A/2-D Spectral Volumes/Thesis
+/Onefluid_Velocity_x_20.jpg> <C:/Users/Edoardo/Desktop/L.A/2-D Spectral Volumes
+/Thesis/Onefluid_Velocity_y_20.jpg> <C:/Users/Edoardo/Desktop/L.A/2-D Spectral 
+Volumes/Thesis/Radial_velocity_20.jpg>] [112 <C:/Users/Edoardo/Desktop/L.A/2-D 
+Spectral Volumes/Thesis/Onefluid_Density_40.jpg> <C:/Users/Edoardo/Desktop/L.A/
+2-D Spectral Volumes/Thesis/Temperature_40.jpg> <C:/Users/Edoardo/Desktop/L.A/2
+-D Spectral Volumes/Thesis/Total_pressure_40.jpg>] [113 <C:/Users/Edoardo/Deskt
+op/L.A/2-D Spectral Volumes/Thesis/Onefluid_Velocity_x_40.jpg> <C:/Users/Edoard
+o/Desktop/L.A/2-D Spectral Volumes/Thesis/Onefluid_Velocity_y_40.jpg> <C:/Users
+/Edoardo/Desktop/L.A/2-D Spectral Volumes/Thesis/Radial_velocity_40.jpg>]
+[114 <C:/Users/Edoardo/Desktop/L.A/2-D Spectral Volumes/Thesis/Onefluid_Density
+_60.jpg> <C:/Users/Edoardo/Desktop/L.A/2-D Spectral Volumes/Thesis/Temperature_
+60.jpg> <C:/Users/Edoardo/Desktop/L.A/2-D Spectral Volumes/Thesis/Total_pressur
+e_60.jpg>] [115 <C:/Users/Edoardo/Desktop/L.A/2-D Spectral Volumes/Thesis/Onefl
+uid_Velocity_x_60.jpg> <C:/Users/Edoardo/Desktop/L.A/2-D Spectral Volumes/Thesi
+s/Onefluid_Velocity_y_60.jpg> <C:/Users/Edoardo/Desktop/L.A/2-D Spectral Volume
+s/Thesis/Radial_velocity_60.jpg>] [116 <C:/Users/Edoardo/Desktop/L.A/2-D Spectr
+al Volumes/Thesis/Onefluid_Density_80.jpg> <C:/Users/Edoardo/Desktop/L.A/2-D Sp
+ectral Volumes/Thesis/Temperature_80.jpg> <C:/Users/Edoardo/Desktop/L.A/2-D Spe
+ctral Volumes/Thesis/Total_pressure_80.jpg>] [117 <C:/Users/Edoardo/Desktop/L.A
+/2-D Spectral Volumes/Thesis/Onefluid_Velocity_x_80.jpg> <C:/Users/Edoardo/Desk
+top/L.A/2-D Spectral Volumes/Thesis/Onefluid_Velocity_y_80.jpg> <C:/Users/Edoar
+do/Desktop/L.A/2-D Spectral Volumes/Thesis/Radial_velocity_80.jpg>] [118 <C:/Us
+ers/Edoardo/Desktop/L.A/2-D Spectral Volumes/Thesis/Onefluid_Density_100.jpg> <
+C:/Users/Edoardo/Desktop/L.A/2-D Spectral Volumes/Thesis/Temperature_100.jpg> <
+C:/Users/Edoardo/Desktop/L.A/2-D Spectral Volumes/Thesis/Total_pressure_100.jpg
+>] [119 <C:/Users/Edoardo/Desktop/L.A/2-D Spectral Volumes/Thesis/Onefluid_Velo
+city_x_100.jpg> <C:/Users/Edoardo/Desktop/L.A/2-D Spectral Volumes/Thesis/Onefl
+uid_Velocity_y_100.jpg> <C:/Users/Edoardo/Desktop/L.A/2-D Spectral Volumes/Thes
+is/Radial_velocity_100.jpg>] <0_E.jpg, id=556, 562.1pt x 421.575pt>
+File: 0_E.jpg Graphic file (type jpg)
+
+<use 0_E.jpg>
+Package pdftex.def Info: 0_E.jpg used on input line 2965.
+(pdftex.def)             Requested size: 281.04932pt x 210.78697pt.
+ <Density_perturbations_10.jpg, id=557, 1204.5pt x 903.375pt>
+File: Density_perturbations_10.jpg Graphic file (type jpg)
+
+<use Density_perturbations_10.jpg>
+Package pdftex.def Info: Density_perturbations_10.jpg used on input line 2966.
+(pdftex.def)             Requested size: 301.12427pt x 225.8432pt.
+ <200_E.jpg, id=558, 562.1pt x 421.575pt>
+File: 200_E.jpg Graphic file (type jpg)
+
+<use 200_E.jpg>
+Package pdftex.def Info: 200_E.jpg used on input line 2974.
+(pdftex.def)             Requested size: 281.04932pt x 210.78697pt.
+ <Density_perturbations_40.jpg, id=559, 1204.5pt x 903.375pt>
+File: Density_perturbations_40.jpg Graphic file (type jpg)
+
+<use Density_perturbations_40.jpg>
+Package pdftex.def Info: Density_perturbations_40.jpg used on input line 2975.
+(pdftex.def)             Requested size: 301.12427pt x 225.8432pt.
+ <350_E.jpg, id=560, 562.1pt x 421.575pt>
+File: 350_E.jpg Graphic file (type jpg)
+
+<use 350_E.jpg>
+Package pdftex.def Info: 350_E.jpg used on input line 2983.
+(pdftex.def)             Requested size: 281.04932pt x 210.78697pt.
+ <Density_perturbations_60.jpg, id=561, 1204.5pt x 903.375pt>
+File: Density_perturbations_60.jpg Graphic file (type jpg)
+
+<use Density_perturbations_60.jpg>
+Package pdftex.def Info: Density_perturbations_60.jpg used on input line 2984.
+(pdftex.def)             Requested size: 301.12427pt x 225.8432pt.
+ <500_E.jpg, id=562, 562.1pt x 420.57124pt>
+File: 500_E.jpg Graphic file (type jpg)
+
+<use 500_E.jpg>
+Package pdftex.def Info: 500_E.jpg used on input line 2992.
+(pdftex.def)             Requested size: 281.04932pt x 210.28511pt.
+ <Density_perturbations_100.jpg, id=563, 1204.5pt x 903.375pt>
+File: Density_perturbations_100.jpg Graphic file (type jpg)
+
+<use Density_perturbations_100.jpg>
+Package pdftex.def Info: Density_perturbations_100.jpg used on input line 2993.
+
+(pdftex.def)             Requested size: 301.12427pt x 225.8432pt.
+ [120] [121 <C:/Users/Edoardo/Desktop/L.A/2-D Spectral Volumes/Thesis/0_E.jpg> 
+<C:/Users/Edoardo/Desktop/L.A/2-D Spectral Volumes/Thesis/Density_perturbations
+_10.jpg>] [122 <C:/Users/Edoardo/Desktop/L.A/2-D Spectral Volumes/Thesis/200_E.
+jpg> <C:/Users/Edoardo/Desktop/L.A/2-D Spectral Volumes/Thesis/Density_perturba
+tions_40.jpg>] [123 <C:/Users/Edoardo/Desktop/L.A/2-D Spectral Volumes/Thesis/3
+50_E.jpg> <C:/Users/Edoardo/Desktop/L.A/2-D Spectral Volumes/Thesis/Density_per
+turbations_60.jpg>] [124 <C:/Users/Edoardo/Desktop/L.A/2-D Spectral Volumes/The
+sis/500_E.jpg> <C:/Users/Edoardo/Desktop/L.A/2-D Spectral Volumes/Thesis/Densit
+y_perturbations_100.jpg>] [125] [126
+
+]
+Appendix A.
+[127] <shape1D.jpg, id=589, 803.0pt x 1154.3125pt>
+File: shape1D.jpg Graphic file (type jpg)
+ <use shape1D.jpg>
+Package pdftex.def Info: shape1D.jpg used on input line 3060.
+(pdftex.def)             Requested size: 401.49902pt x 577.15485pt.
+ [128]
+[129 <C:/Users/Edoardo/Desktop/L.A/2-D Spectral Volumes/Thesis/shape1D.jpg>]
+<shapefunction2Done.jpg, id=597, 562.1pt x 421.575pt>
+File: shapefunction2Done.jpg Graphic file (type jpg)
+
+<use shapefunction2Done.jpg>
+Package pdftex.def Info: shapefunction2Done.jpg used on input line 3100.
+(pdftex.def)             Requested size: 224.83601pt x 168.627pt.
+
+<shapefunction2Dthree.jpg, id=598, 562.1pt x 420.57124pt>
+File: shapefunction2Dthree.jpg Graphic file (type jpg)
+
+<use shapefunction2Dthree.jpg>
+Package pdftex.def Info: shapefunction2Dthree.jpg used on input line 3101.
+(pdftex.def)             Requested size: 224.83601pt x 168.22551pt.
+
+<shapefunction2Dfour.jpg, id=599, 562.1pt x 421.575pt>
+File: shapefunction2Dfour.jpg Graphic file (type jpg)
+
+<use shapefunction2Dfour.jpg>
+Package pdftex.def Info: shapefunction2Dfour.jpg used on input line 3102.
+(pdftex.def)             Requested size: 224.83601pt x 168.627pt.
+
+<shapefunction2Dtwo.jpg, id=600, 562.1pt x 421.575pt>
+File: shapefunction2Dtwo.jpg Graphic file (type jpg)
+
+<use shapefunction2Dtwo.jpg>
+Package pdftex.def Info: shapefunction2Dtwo.jpg used on input line 3103.
+(pdftex.def)             Requested size: 224.83601pt x 168.627pt.
+ [130] [131 <C:/Users/Edoardo/Desktop/L.A/2-D Spectral Volumes/Thesis/shapefunc
+tion2Done.jpg> <C:/Users/Edoardo/Desktop/L.A/2-D Spectral Volumes/Thesis/shapef
+unction2Dthree.jpg> <C:/Users/Edoardo/Desktop/L.A/2-D Spectral Volumes/Thesis/s
+hapefunction2Dfour.jpg> <C:/Users/Edoardo/Desktop/L.A/2-D Spectral Volumes/Thes
+is/shapefunction2Dtwo.jpg>] [132] [133] [134]
+Overfull \hbox (22.91402pt too wide) in alignment at lines 3258--3262
+ [][][] []
+ []
+
+[135] [136] [137
+
+]
+Underfull \hbox (badness 2103) in paragraph at lines 3327--3328
+\OT1/cmr/m/it/12 Spec-tral Vol-ume Navier Stokes Solver\OT1/cmr/m/n/12 , Jour-n
+al of Sci-en-tific Com-put-ing DOI
+ []
+
+Package minitoc Info: I0009
+(minitoc)             Listing minitoc auxiliary files. 
+(minitoc)             Creating the thesis.maf file.
+
+Package minitoc(hints) Warning: W0086
+(minitoc(hints))                The fncychap package should be 
+(minitoc(hints))                loaded BEFORE the minitoc package.
+
+Package minitoc(hints) Info: I0053
+(minitoc(hints))             You have loaded the float package; 
+(minitoc(hints))             please be aware that the minitoc package 
+(minitoc(hints))             facilities can not be used for new types 
+(minitoc(hints))             of floats defined by the float package.
+
+Package minitoc(hints) Warning: W0024
+(minitoc(hints))                Some hints have been written 
+(minitoc(hints))                in the thesis.log file.
+
+[138] ("C:\Users\Edoardo\Desktop\L.A\2-D Spectral Volumes\Thesis\thesis.aux")
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+ ) 
+Here is how much of TeX's memory you used:
+ 10273 strings out of 493921
+ 151689 string characters out of 3144869
+ 403957 words of memory out of 3000000
+ 13094 multiletter control sequences out of 15000+200000
+ 18879 words of font info for 72 fonts, out of 3000000 for 9000
+ 841 hyphenation exceptions out of 8191
+ 36i,21n,58p,946b,1205s stack positions out of 5000i,500n,10000p,200000b,50000s
+<C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb>
+<C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C
+:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><C:
+/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/P
+rogram Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmitt10.pfb><C:/Pr
+ogram Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Prog
+ram Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Progra
+m Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Program F
+iles (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Program File
+s (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files (
+x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files (x86
+)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Program Files (x86)/M
+iKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Program Files (x86)/MiKTe
+X 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Program Files (x86)/MiKTeX 2.
+9/fonts/type1/public/amsfonts/cm/cmss12.pfb><C:/Program Files (x86)/MiKTeX 2.9/
+fonts/type1/public/amsfonts/cm/cmssi12.pfb><C:/Program Files (x86)/MiKTeX 2.9/f
+onts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fon
+ts/type1/public/amsfonts/cm/cmsy6.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/
+type1/public/amsfonts/cm/cmsy8.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/typ
+e1/public/amsfonts/cm/cmti10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1
+/public/amsfonts/cm/cmti12.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/p
+ublic/amsfonts/cm/cmtt10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/pub
+lic/amsfonts/cm/cmtt12.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/publi
+c/amsfonts/cm/cmtt8.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/a
+msfonts/euler/eufm10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/
+amsfonts/symbols/msbm10.pfb>
+Output written on thesis.pdf (154 pages, 8098513 bytes).
+PDF statistics:
+ 715 PDF objects out of 1000 (max. 8388607)
+ 0 named destinations out of 1000 (max. 500000)
+ 566 words of extra memory for PDF output out of 10000 (max. 10000000)
+

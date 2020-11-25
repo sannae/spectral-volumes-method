@@ -1,0 +1,458 @@
+\relax 
+\catcode`"\active
+\select@language{italian}
+\@writefile{toc}{\select@language{italian}}
+\@writefile{lof}{\select@language{italian}}
+\@writefile{lot}{\select@language{italian}}
+\select@language{italian}
+\@writefile{toc}{\select@language{italian}}
+\@writefile{lof}{\select@language{italian}}
+\@writefile{lot}{\select@language{italian}}
+\select@language{english}
+\@writefile{toc}{\select@language{english}}
+\@writefile{lof}{\select@language{english}}
+\@writefile{lot}{\select@language{english}}
+\@writefile{toc}{\contentsline {chapter}{Ringraziamenti}{ix}}
+\citation{LAPS}
+\@writefile{toc}{\contentsline {chapter}{Introduction}{xiii}}
+\@writefile{toc}{\contentsline {paragraph}{Main LAPS functionalities}{xiii}}
+\@writefile{toc}{\contentsline {paragraph}{Initial value plasma dynamics with fluid models using the Spectral Volume discretization}{xiv}}
+\citation{Scarabosio}
+\citation{Boffa}
+\@writefile{toc}{\contentsline {paragraph}{Outline}{xv}}
+\citation{Wang1}
+\citation{Godunov}
+\@writefile{toc}{\contentsline {chapter}{\numberline {1}The Spectral Volume method}{1}}
+\@writefile{lof}{\addvspace {10\p@ }}
+\@writefile{lot}{\addvspace {10\p@ }}
+\@writefile{lof}{\contentsline {xchapter}{The Spectral Volume method}{1}}
+\@writefile{lot}{\contentsline {xchapter}{The Spectral Volume method}{1}}
+\@writefile{loa}{\addvspace {10\p@ }}
+\newlabel{Chap_SVmethod}{{1}{1}}
+\citation{Wang3}
+\@writefile{toc}{\contentsline {paragraph}{Outline}{2}}
+\@writefile{toc}{\contentsline {section}{\numberline {1.1}The 1-D scheme}{2}}
+\newlabel{1D}{{1.1}{2}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {1.1.1}The problem}{2}}
+\newlabel{problem1D}{{1.1.1}{2}}
+\@writefile{toc}{\contentsline {paragraph}{Differential formulation}{2}}
+\newlabel{set of conservation laws}{{1.5}{3}}
+\@writefile{toc}{\contentsline {paragraph}{Integral form}{3}}
+\citation{Wang1}
+\@writefile{toc}{\contentsline {subsection}{\numberline {1.1.2}The grid}{4}}
+\newlabel{grid1D}{{1.1.2}{4}}
+\@writefile{toc}{\contentsline {subsubsection}{Implementation of the grid}{5}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {1.1.3}The initial conditions}{5}}
+\newlabel{initialconditions1D}{{1.1.3}{5}}
+\newlabel{cellaverage}{{1.13}{5}}
+\@writefile{lof}{\contentsline {figure}{\numberline {1.1}{\ignorespaces The grid. Since this is a one-dimensional problem, for the sake of clarity only vertical lines corresponding to each node has been represented. Blue continuous lines correspond to Spectral Volume boundaries, black dashed lines to Control Volume boundaries. Here \texttt  {[a,b]=[-1,1]}, \texttt  {k=3}, \texttt  {SV\_number=4}. Both discretization are equispaced.\relax }}{6}}
+\providecommand*\caption@xref[2]{\@setref\relax\@undefined{#1}}
+\newlabel{fig:grid1D}{{1.1}{6}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {1.1.4}The reconstruction process}{6}}
+\newlabel{reconstruction1D}{{1.1.4}{6}}
+\@writefile{lof}{\contentsline {figure}{\numberline {1.2}{\ignorespaces The initial condition. In the figure, the red lines represents the averaged value of the initial density, \textit  {i.e.} $\mathaccentV {vec}17E{u}[1]$. As you may notice, now every cell has its own constant state: the Spectral Volume method consists of solving the set of PDEs in every control volume.\relax }}{7}}
+\newlabel{fig:initialaverage1D}{{1.2}{7}}
+\@writefile{toc}{\contentsline {paragraph}{The reconstruction matrix}{8}}
+\citation{Wang1}
+\@writefile{toc}{\contentsline {paragraph}{Solving the system}{9}}
+\@writefile{lof}{\contentsline {figure}{\numberline {1.3}{\ignorespaces The reconstructed initial condition. Compare this figure with the previous one. The figure does not show a unique polynomial over the domain, but $N$ polynomials, one per Spectral Volume, reconstructed with the cell-averaged state variables in the Control Volumes. The plot seems continuous, but there are some jumps at the Spectral Volume boundaries.\relax }}{9}}
+\newlabel{fig:initialreconstructed1D}{{1.3}{9}}
+\@writefile{toc}{\contentsline {paragraph}{A note on the reconstruction coefficients and the accuracy property}{10}}
+\newlabel{Wangpart1}{{1.23}{10}}
+\newlabel{Wangpart2}{{1.33}{11}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {1.1.5}The boundary conditions}{12}}
+\newlabel{BC1D}{{1.1.5}{12}}
+\newlabel{wallscalarproduct}{{1.40}{13}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {1.1.6}Compute the fluxes}{13}}
+\newlabel{fluxes1D}{{1.1.6}{13}}
+\newlabel{vectorseuler}{{1.42}{13}}
+\@writefile{toc}{\contentsline {paragraph}{The Riemann flux}{13}}
+\citation{Toro}
+\citation{Toro}
+\newlabel{Rusanovflux}{{1.46}{14}}
+\@writefile{toc}{\contentsline {paragraph}{Implementation of the \texttt  {compute\_fluxes} function}{14}}
+\citation{Wang1}
+\citation{Wang1}
+\@writefile{toc}{\contentsline {subsection}{\numberline {1.1.7}The update}{15}}
+\newlabel{update1D}{{1.1.7}{15}}
+\@writefile{toc}{\contentsline {paragraph}{$k$-order-accuracy in time}{15}}
+\@writefile{lof}{\contentsline {figure}{\numberline {1.4}{\ignorespaces The update of the average after $1$ time step. You can compare the results by spotting the difference between the initial condition (green) and the new solution (red). The whole Spectral Volume method has been implemented once and the new constant state in every cell is now the known state for the following implementation.\relax }}{16}}
+\newlabel{fig:1timestepupdate}{{1.4}{16}}
+\@writefile{loa}{\contentsline {algocf}{\numberline {1}{\ignorespaces Spectral Volume method for Euler equations\relax }}{17}}
+\newlabel{SVmethod_nocfd_nolim}{{1}{17}}
+\@writefile{lof}{\contentsline {figure}{\numberline {1.5}{\ignorespaces Solution at 10 time steps (left) and 20 time steps(right). The green averages represent the initial condition, the red averages represent the updated solution. Whereas the averaged value is not shown, it's because it is out of the domain of representation.\relax }}{17}}
+\newlabel{fig:1020timestepupdate}{{1.5}{17}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {1.1.8}Limiting the reconstruction}{17}}
+\newlabel{limiters1D}{{1.1.8}{17}}
+\citation{Wang1}
+\citation{Harten}
+\newlabel{advection}{{1.55}{18}}
+\newlabel{TVDpart}{{1.58}{18}}
+\@writefile{lof}{\contentsline {figure}{\numberline {1.6}{\ignorespaces Working mechanism of the \textit  {minmod} limiter. In this figure the right edge value of the cell $i,j$ is being limited. The unlimited polynomial (red) defines the quantity $\Delta u^+$. Then the new limited reconstruction value (green) on the same point is as far from the cell average as the minimum modulus between $\Delta \overline  {u}^-$, $\Delta \overline  {u}^+$ and $\Delta u^+$. You may notice that the limitation is made so that the reconstruction polynomial is at most as high as the higher cell-average between $\overline  {u}_{ij}$ and $\overline  {u}_{i,j+1}$, but never higher. This prevents the onset of overshoots due to Gibbs phenomena.\relax }}{20}}
+\newlabel{fig:minmod1}{{1.6}{20}}
+\@writefile{lof}{\contentsline {figure}{\numberline {1.7}{\ignorespaces Explanation of the diffusivity of \textit  {minmod} limiter. In the case of a neighboring cell-average state variable way higher than the other neighbors, as in the case represented, the application of the \textit  {minmod} limiter on the right edge of cell $i,j$ reduces significantly the value of the reconstruction polynomial, even though it didn't require any limitation.\relax }}{20}}
+\newlabel{fig:minmod2}{{1.7}{20}}
+\@writefile{loa}{\contentsline {algocf}{\numberline {2}{\ignorespaces \textit  {Minmod} limiter\relax }}{20}}
+\newlabel{minmod}{{2}{20}}
+\citation{Dullemond}
+\@writefile{loa}{\contentsline {algocf}{\numberline {3}{\ignorespaces Spectral Volume method for Euler equations\relax }}{21}}
+\newlabel{SVmethod_nocfd}{{3}{21}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {1.1.9}CFL conditions}{21}}
+\newlabel{CFL1D}{{1.1.9}{21}}
+\@writefile{toc}{\contentsline {paragraph}{CFL condition for linear advection}{21}}
+\@writefile{lof}{\contentsline {figure}{\numberline {1.8}{\ignorespaces Limited reconstruction polynomial at 10 time steps (top left), 20 time steps(top right), 40 time steps (bottom left) and 80 time steps (bottom right). The green curve represents the initial condition, the red one represents the reconstruction polynomial after the limitation was imposed.\relax }}{22}}
+\newlabel{fig:SVmethod1Dwithlimiters}{{1.8}{22}}
+\citation{Toro}
+\citation{Toro}
+\@writefile{toc}{\contentsline {paragraph}{From advection to Euler equations}{23}}
+\newlabel{CFLeuler}{{1.65}{23}}
+\newlabel{Snij}{{1.66}{23}}
+\newlabel{Snmax}{{1.66}{23}}
+\@writefile{loa}{\contentsline {algocf}{\numberline {4}{\ignorespaces CFL condition\relax }}{24}}
+\newlabel{CFL}{{4}{24}}
+\@writefile{loa}{\contentsline {algocf}{\numberline {5}{\ignorespaces Spectral Volume method for Euler equations\relax }}{24}}
+\newlabel{SVmethodcomplete}{{5}{24}}
+\citation{Wang3}
+\citation{Wang3}
+\@writefile{lof}{\contentsline {figure}{\numberline {1.9}{\ignorespaces Reconstruction polynomial representing the solution at 10 time steps (top left), 20 time steps (top right), 40 time steps (bottom left) and 80 time steps (bottom right). The updated solution (red curve) is always compared to the initial condition (green curve).\relax }}{25}}
+\newlabel{fig:SVmethod1Dwithlimitersandcfd}{{1.9}{25}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {1.1.10}Partition optimization}{25}}
+\newlabel{partition1D}{{1.1.10}{25}}
+\@writefile{lof}{\contentsline {figure}{\numberline {1.10}{\ignorespaces The new grid with the hyperbolic tangent partition of Control Volumes (left) and the cell-averaged state initial variable, for the density (right). The Spectral Volumes partition remains equispaced.\relax }}{27}}
+\newlabel{fig:tangent_initial}{{1.10}{27}}
+\citation{Wang2}
+\@writefile{lof}{\contentsline {figure}{\numberline {1.11}{\ignorespaces Test case with the hyperbolic tangent Control Volume partition and equispaced Spectral Volume partition. The figure shows the reconstruction polynomial representing the solution at 10 time steps (top left), 20 time steps (top right), 40 time steps (bottom left) and 80 time steps (bottom right). The updated solution (red curve) is always compared to the initial condition (green curve).\relax }}{28}}
+\newlabel{fig:tangent_initial_time}{{1.11}{28}}
+\@writefile{toc}{\contentsline {section}{\numberline {1.2}The 2-D scheme}{28}}
+\newlabel{2D}{{1.2}{28}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {1.2.1}The problem}{28}}
+\newlabel{problem2D}{{1.2.1}{28}}
+\newlabel{2Deuler}{{1.76}{28}}
+\newlabel{kinetic2D}{{1.78}{29}}
+\@writefile{toc}{\contentsline {paragraph}{Dimensional splitting}{29}}
+\newlabel{xsweep}{{1.79}{29}}
+\newlabel{ysweep}{{1.80}{29}}
+\citation{Wang2}
+\newlabel{xsweepeuler}{{1.81}{30}}
+\newlabel{ysweepeuler}{{1.82}{30}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {1.2.2}The grid}{30}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {1.2.3}Initial conditions}{31}}
+\newlabel{initialconditions2D}{{1.2.3}{31}}
+\@writefile{lof}{\contentsline {figure}{\numberline {1.12}{\ignorespaces \textbf  {Left:} 3-D representation of the already optimized two-dimensional grid. In the figure, both the super-grid of Spectral Volumes (blue lines) and the sub-grid of Control Volumes (black lines) are shown. While the first one is being partitioned in an equispaced manner, the second one follows the hyperbolic tangent discretization on both $x$ and $y$ directions. In the case represented, \texttt  {k=3}, \texttt  {Nx=3}, \texttt  {Ny=3}, $\mu $=1.5. \textbf  {Right:} Average of the initial conditions on the domain, shown only for $\rho $.\relax }}{32}}
+\newlabel{fig:2Dgridandinitial}{{1.12}{32}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {1.2.4}The reconstruction process}{32}}
+\newlabel{reconstruction2D}{{1.2.4}{32}}
+\citation{Wang2}
+\newlabel{reconstruction2Dsystem}{{1.86}{33}}
+\newlabel{reconstructionpolynomial2D}{{1.87}{33}}
+\newlabel{reconstructionpolynomial2Dsecondform}{{1.88}{33}}
+\@writefile{lof}{\contentsline {figure}{\numberline {1.13}{\ignorespaces The reconstructed initial condition. Again, although it seems that the figure shows only one two-dimensional polynomial, it is in fact a collection of different polynomials, one per each volume, that might not be continuous on the Spectral Volumes boundaries.\relax }}{34}}
+\newlabel{fig:2Dreconstruction}{{1.13}{34}}
+\@writefile{toc}{\contentsline {paragraph}{Note on similar partitions}{34}}
+\newlabel{logicalpolynomial}{{1.89}{34}}
+\newlabel{transformation}{{1.90}{35}}
+\newlabel{logicalbasis}{{1.91}{35}}
+\newlabel{logicaldV}{{1.92}{35}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {1.2.5}Two-dimensional limiters}{35}}
+\newlabel{limiters2D}{{1.2.5}{35}}
+\citation{Wang2}
+\citation{Wang1}
+\citation{Michalak}
+\newlabel{limiter2Dcondition1}{{1.94}{36}}
+\newlabel{limiter2Dcondition2}{{1.97}{36}}
+\citation{Wang2}
+\citation{Wang4}
+\@writefile{toc}{\contentsline {subsection}{\numberline {1.2.6}Boundary conditions}{37}}
+\@writefile{lof}{\contentsline {figure}{\numberline {1.14}{\ignorespaces Graphic showing how the \texttt  {WALL} boundary conditions have been implemented. The available value of the velocity (red) is the known one, while the reflected vector (green) is the one to be imposed as a function of the previous one.\relax }}{38}}
+\newlabel{WallBC}{{1.14}{38}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {1.2.7}Computation of fluxes}{39}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {1.2.8}The update}{40}}
+\newlabel{2Dupdate}{{1.2.8}{40}}
+\citation{Wang1}
+\@writefile{lof}{\contentsline {figure}{\numberline {1.15}{\ignorespaces Reconstruction polynomial of the density at 10 time steps (top left), 20 time steps (top right), 40 time steps (bottom left) and 80 time steps (bottom right), with the \textit  {minmod} limiter. Compare these results with the one-dimensional case.\relax }}{41}}
+\newlabel{fig:2D_minmod_results}{{1.15}{41}}
+\@writefile{toc}{\contentsline {section}{\numberline {1.3}The generic multi-d SV method}{41}}
+\newlabel{WangSV}{{1.3}{41}}
+\@writefile{toc}{\contentsline {paragraph}{General Finite Volume approach}{41}}
+\newlabel{genericPDE}{{1.122}{41}}
+\newlabel{integratedPDE}{{1.125}{42}}
+\newlabel{averagedPDE}{{1.127}{42}}
+\newlabel{PDEGauss}{{1.128}{42}}
+\citation{Wang1}
+\citation{Wang2}
+\citation{Wang3}
+\citation{Wang4}
+\newlabel{Riemannflux}{{1.136}{43}}
+\newlabel{totalflux}{{1.137}{43}}
+\newlabel{averagedupdate}{{1.138}{43}}
+\@writefile{toc}{\contentsline {paragraph}{Control Volumes subdivision}{43}}
+\@writefile{lof}{\contentsline {figure}{\numberline {1.16}{\ignorespaces The main difference between the Finite Volume method and the Spectral Volume method in the reconstruction process: (a) The reconstruction stencil used to update the solution in the grey cell is made of a set of neighboring cells; (b) The Spectral Volume itself is partitioned into six Control Volumes supporting a quadratic reconstruction\relax }}{44}}
+\newlabel{fig:stencil}{{1.16}{44}}
+\@writefile{lof}{\contentsline {figure}{\numberline {1.17}{\ignorespaces Possible partitions for linear (left), quadratic (center) and cubic (right) triangular Spectral Volumes. The number of Control Volumes in the picture is the minimum required for the corresponding polynomial reconstructions.\relax }}{44}}
+\newlabel{fig:triangularSVs}{{1.17}{44}}
+\@writefile{lof}{\contentsline {figure}{\numberline {1.18}{\ignorespaces Possible partitions for quadratic three-dimensional tetrahedral Spectral Volumes.\relax }}{45}}
+\newlabel{fig:3DSVs}{{1.18}{45}}
+\citation{Wang4}
+\citation{Wang5}
+\citation{Boffa}
+\@writefile{toc}{\contentsline {chapter}{\numberline {2}Towards a plasma fluid model}{47}}
+\@writefile{lof}{\addvspace {10\p@ }}
+\@writefile{lot}{\addvspace {10\p@ }}
+\@writefile{lof}{\contentsline {xchapter}{Towards a plasma fluid model}{47}}
+\@writefile{lot}{\contentsline {xchapter}{Towards a plasma fluid model}{47}}
+\@writefile{loa}{\addvspace {10\p@ }}
+\newlabel{Chap_Plasma}{{2}{47}}
+\@writefile{toc}{\contentsline {paragraph}{Outline}{47}}
+\citation{Wang6}
+\@writefile{toc}{\contentsline {section}{\numberline {2.1}Extension to viscous fluxes}{48}}
+\newlabel{viscous}{{2.1}{48}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.1.1}The heat equation}{48}}
+\newlabel{Heat}{{2.1.1}{48}}
+\@writefile{toc}{\contentsline {paragraph}{The physics behind the problem}{48}}
+\@writefile{toc}{\contentsline {paragraph}{Implementation of the viscous fluxes}{48}}
+\citation{Wang2}
+\newlabel{diffusion}{{2.3}{49}}
+\citation{Wang6}
+\citation{Wang6}
+\@writefile{toc}{\contentsline {paragraph}{Evaluation of the numerical viscous fluxes}{50}}
+\@writefile{toc}{\contentsline {paragraph}{Results}{51}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.1.2}The viscous Euler set of PDEs}{51}}
+\newlabel{ViscousEuler}{{2.1.2}{51}}
+\@writefile{toc}{\contentsline {paragraph}{Expression of the problem}{51}}
+\@writefile{lof}{\contentsline {figure}{\numberline {2.1}{\ignorespaces Heat equation numerical solution through Spectral Volumes method (above) compared to analytical solution (middle) and absolute error (bottom) at $n=0$,$t=0~s$\relax }}{52}}
+\newlabel{heat_results_0}{{2.1}{52}}
+\@writefile{lof}{\contentsline {figure}{\numberline {2.2}{\ignorespaces Heat equation numerical solution through Spectral Volumes method (above) compared to analytical solution (middle) and absolute error (bottom) at $n=50$,$t=0.25~s$\relax }}{53}}
+\newlabel{heat_results_50}{{2.2}{53}}
+\@writefile{lof}{\contentsline {figure}{\numberline {2.3}{\ignorespaces Heat equation numerical solution through Spectral Volumes method (above) compared to analytical solution (middle) and absolute error (bottom) at $n=100$,$t=0.50~s$\relax }}{54}}
+\newlabel{heat_results_100}{{2.3}{54}}
+\@writefile{lof}{\contentsline {figure}{\numberline {2.4}{\ignorespaces Heat equation numerical solution through Spectral Volumes method (above) compared to analytical solution (middle) and absolute error (bottom) at $n=500$,$t=2.50~s$\relax }}{55}}
+\newlabel{heat_results_500}{{2.4}{55}}
+\@writefile{lof}{\contentsline {figure}{\numberline {2.5}{\ignorespaces Heat equation numerical solution through Spectral Volumes method (above) compared to analytical solution (middle) and absolute error (bottom) at $n=900$,$t=4.50~s$\relax }}{56}}
+\newlabel{heat_results_900}{{2.5}{56}}
+\citation{Wang7}
+\citation{Liang}
+\citation{Braginskii}
+\@writefile{toc}{\contentsline {section}{\numberline {2.2}Plasma fluid modeling}{58}}
+\newlabel{plasma}{{2.2}{58}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.2.1}The Braginskii's plasma fluid description}{59}}
+\@writefile{toc}{\contentsline {paragraph}{Properties of the kinetic equations}{59}}
+\newlabel{Kineticequation}{{2.36}{59}}
+\newlabel{collisionproperties1}{{2.39}{60}}
+\newlabel{collisionproperties2}{{2.40}{60}}
+\newlabel{collisionproperties3}{{2.41}{60}}
+\@writefile{toc}{\contentsline {paragraph}{Toward a fluid approximation}{60}}
+\newlabel{transport1}{{2.49}{61}}
+\newlabel{transport2}{{2.50}{61}}
+\newlabel{transport3}{{2.51}{61}}
+\newlabel{simplifiedtransport2}{{2.53}{61}}
+\newlabel{simplifiedkinetic3}{{2.62}{62}}
+\@writefile{toc}{\contentsline {subsubsection}{Transport coefficients of a simple plasma}{63}}
+\@writefile{toc}{\contentsline {paragraph}{Particle collisions}{63}}
+\citation{Helander}
+\citation{Braginskii}
+\@writefile{toc}{\contentsline {paragraph}{The frictional and thermal force}{64}}
+\citation{Braginskii}
+\citation{Braginskii}
+\@writefile{toc}{\contentsline {paragraph}{Heat generation}{65}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.2.2}A simplified model}{65}}
+\citation{Braginskii}
+\citation{Helander}
+\@writefile{toc}{\contentsline {paragraph}{Simplifying the set}{67}}
+\newlabel{11}{{2.96}{67}}
+\newlabel{22}{{2.97}{67}}
+\newlabel{33}{{2.98}{67}}
+\newlabel{44}{{2.99}{67}}
+\newlabel{55}{{2.100}{67}}
+\newlabel{111}{{2.102}{67}}
+\newlabel{222}{{2.103}{67}}
+\newlabel{333}{{2.104}{67}}
+\newlabel{444}{{2.105}{67}}
+\newlabel{555}{{2.106}{67}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.2.3}Normalization}{68}}
+\@writefile{toc}{\contentsline {paragraph}{Continuity equation}{69}}
+\@writefile{toc}{\contentsline {paragraph}{Momentum equation}{69}}
+\@writefile{toc}{\contentsline {paragraph}{Energy equation}{70}}
+\@writefile{toc}{\contentsline {paragraph}{Summary}{71}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.2.4}Normalized one-fluid Braginskii's equations}{72}}
+\@writefile{toc}{\contentsline {paragraph}{Momentum equations}{72}}
+\newlabel{momentum1}{{2.137}{72}}
+\newlabel{momentum2}{{2.138}{72}}
+\@writefile{toc}{\contentsline {paragraph}{Energy equation}{75}}
+\@writefile{toc}{\contentsline {chapter}{\numberline {3}A C++ code using general mesh}{79}}
+\@writefile{lof}{\addvspace {10\p@ }}
+\@writefile{lot}{\addvspace {10\p@ }}
+\@writefile{lof}{\contentsline {xchapter}{A C++ code using general mesh}{79}}
+\@writefile{lot}{\contentsline {xchapter}{A C++ code using general mesh}{79}}
+\@writefile{loa}{\addvspace {10\p@ }}
+\newlabel{Chap_Code}{{3}{79}}
+\@writefile{toc}{\contentsline {paragraph}{Outline}{79}}
+\@writefile{toc}{\contentsline {section}{\numberline {3.1}Generic object-oriented programming}{79}}
+\newlabel{OOP}{{3.1}{79}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.1.1}Definition of Object-Oriented Programming}{79}}
+\@writefile{lof}{\contentsline {figure}{\numberline {3.1}{\ignorespaces A picture representing the basic concept of inheritance. \textit  {Animal} is the class, and the following are \textit  {objects}. The idea is that objects can inherit traits from other objects: without it, we'd have to redefine the same shared variables over and over again.\relax }}{80}}
+\newlabel{inheritance}{{3.1}{80}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.1.2}Definition of Generic Programming}{81}}
+\@writefile{toc}{\contentsline {section}{\numberline {3.2}Mesh generation and management}{82}}
+\newlabel{mesh}{{3.2}{82}}
+\citation{Boffa}
+\citation{Boffa}
+\@writefile{lof}{\contentsline {figure}{\numberline {3.2}{\ignorespaces The UML diagram of mesh management representing class structures. Every box represents a class, containing its public members. Dotted arrows mean \textit  {dependency}, white arrows mean \textit  {implements} and plain diamonds mean \textit  {aggregation}. Created using \texttt  {umbrello} software.\relax }}{83}}
+\newlabel{meshstructure}{{3.2}{83}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.2.1}Class \texttt  {mesh}}{84}}
+\@writefile{toc}{\contentsline {subsubsection}{Data structures}{84}}
+\@writefile{toc}{\contentsline {subsubsection}{Main methods}{84}}
+\@writefile{lof}{\contentsline {figure}{\numberline {3.3}{\ignorespaces Example of a reference element \texttt  {0} surrounded by neighbors. In red the local numbering of nodes, in blue the local numbering of lines are shown. \relax }}{85}}
+\newlabel{neighborselements}{{3.3}{85}}
+\@writefile{toc}{\contentsline {subsubsection}{A clustering parameter}{85}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.2.2}Class \texttt  {meshparallel}}{86}}
+\@writefile{lof}{\contentsline {figure}{\numberline {3.4}{\ignorespaces Nodes of a mesh generated by \texttt  {GMSH} with clustering parameter $0$ (top left), $+1$ (top right) and $-2$ (bottom). Every four adjacent nodes locate a Spectral Volume.\relax }}{87}}
+\newlabel{clustering}{{3.4}{87}}
+\@writefile{toc}{\contentsline {section}{\numberline {3.3}Softwares}{88}}
+\newlabel{softwares}{{3.3}{88}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.3.1}GMSH}{88}}
+\@writefile{toc}{\contentsline {paragraph}{GMSH file format}{88}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.3.2}METIS}{89}}
+\@writefile{toc}{\contentsline {section}{\numberline {3.4}Libraries}{90}}
+\newlabel{libraries}{{3.4}{90}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.4.1}ParMETIS}{90}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.4.2}MPI}{90}}
+\citation{Boffa}
+\citation{Scarabosio}
+\citation{Boffa}
+\@writefile{toc}{\contentsline {section}{\numberline {3.5}SV-Method implementation}{91}}
+\newlabel{SVmethodimplementation}{{3.5}{91}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.5.1}The spectral volume grid}{91}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.5.2}Plasma state and basis functions}{91}}
+\citation{Wang2}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.5.3}Equations}{93}}
+\citation{Boffa}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.5.4}The method}{94}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.5.5}The simulator}{96}}
+\citation{Toro}
+\citation{Wang6}
+\@writefile{toc}{\contentsline {subsubsection}{CFL conditions}{97}}
+\newlabel{CFLwang2D}{{3.3}{97}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.5.6}The \texttt  {main}}{98}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.5.7}Handling the output}{99}}
+\@writefile{toc}{\contentsline {paragraph}{Radial velocity}{100}}
+\@writefile{toc}{\contentsline {paragraph}{Density perturbations}{100}}
+\@writefile{toc}{\contentsline {paragraph}{Electric field}{100}}
+\@writefile{lof}{\contentsline {figure}{\numberline {3.5}{\ignorespaces Example of usage of the \texttt  {GMSH} software. The two-dimensional geometry is obtained by drawing a set of points and lines so that the total domain is closed and can be filled with a plane surface (top left). Then a two-dimensional mesh is drawn inside the domain, according to the chosen algorithm, in this example a structured one made of 16 cell (top right). A further refinement can be used to split every element into four elements, thus increasing the total amount of cells (bottom left). Very fine unstructured mesh can also be generated, like the one used in our implementation of the code (bottom right).\relax }}{101}}
+\newlabel{meshcircle}{{3.5}{101}}
+\@writefile{lof}{\contentsline {figure}{\numberline {3.6}{\ignorespaces Example of structure of the adjacency properties of a dual graph in \textit  {Compressed Storage Format} (CRS). Above, a simple graph made of 15 nodes. Below, the information of the adjacency of every node is provided in the two vectors \texttt  {xadj} (containing the index to be read) and \texttt  {adjncy} (containing the positions of the neighboring nodes of the $i^{th}$ node).\relax }}{102}}
+\newlabel{xadj}{{3.6}{102}}
+\@writefile{lof}{\contentsline {figure}{\numberline {3.7}{\ignorespaces Class and member structure in the construction of the logic Spectral Volume.\relax }}{103}}
+\newlabel{svlogic}{{3.7}{103}}
+\@writefile{toc}{\contentsline {chapter}{\numberline {4}Benchmark tests}{105}}
+\@writefile{lof}{\addvspace {10\p@ }}
+\@writefile{lot}{\addvspace {10\p@ }}
+\@writefile{lof}{\contentsline {xchapter}{Benchmark tests}{105}}
+\@writefile{lot}{\contentsline {xchapter}{Benchmark tests}{105}}
+\@writefile{loa}{\addvspace {10\p@ }}
+\newlabel{Chap_Results}{{4}{105}}
+\@writefile{toc}{\contentsline {paragraph}{Outline}{105}}
+\@writefile{toc}{\contentsline {section}{\numberline {4.1}A simple overview on ICF}{105}}
+\newlabel{ICFoverview}{{4.1}{105}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.1}{\ignorespaces Step-by-step qualitative explanation of the Inertial Confinement Fusion process driven by the indirect approach\relax }}{106}}
+\newlabel{ICFindirect}{{4.1}{106}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.2}{\ignorespaces \textbf  {Left:} the polished beryllium capsule designed for inertial confinement fusion experiments is 2 millimeters in diameter. The 10-micrometer fill tube attached to the top of the capsule is barely visible. \textbf  {Right:} digital x-radiograph showing a high-density carbon capsule with an inner layer of frozen deuterium–tritium fuel. The capsule’s inner diameter is 2 millimeters. The fuel layer is only 50 micrometers thick, and its surface roughness is a mere 0.5 micrometer.\relax }}{106}}
+\newlabel{ICFtarget}{{4.2}{106}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.3}{\ignorespaces \textbf  {a:} The thermomechanical package for the hohlraum-capsule assembly has a 2-millimeter-diameter capsule in the center. \textbf  {b:} A cutaway rendering of the package shows the tenting of the capsule and the silicon support arms.\relax }}{107}}
+\newlabel{ICFtarget2}{{4.3}{107}}
+\@writefile{toc}{\contentsline {paragraph}{Fast and shock ignition}{107}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.4}{\ignorespaces Schematic fuel conditions at ignition. Symbols stand for hot spot density ($\rho _h$), fuel density ($\rho _c$), hot spot radius ($R_h$) and hot-cold pressure ratio ($\beta $). \textbf  {a:} standard central ignition. \textbf  {b:} fast Ignition. \textbf  {c:} shock ignition.\relax }}{108}}
+\newlabel{ignitions}{{4.4}{108}}
+\@writefile{toc}{\contentsline {paragraph}{Plasma waves and frequency}{108}}
+\@writefile{toc}{\contentsline {section}{\numberline {4.2}One-fluid model: numerical results}{108}}
+\newlabel{Onefluidresults}{{4.2}{108}}
+\@writefile{toc}{\contentsline {paragraph}{Parameters and inputs}{108}}
+\@writefile{toc}{\contentsline {paragraph}{Analysis}{109}}
+\@writefile{toc}{\contentsline {section}{\numberline {4.3}Two-fluid model: numerical results}{109}}
+\newlabel{Twofluidresults}{{4.3}{109}}
+\@writefile{toc}{\contentsline {paragraph}{Initial conditions}{109}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.5}{\ignorespaces Density, Temperature and Pressure at time step 20/100.\relax }}{110}}
+\newlabel{onefluid_20a}{{4.5}{110}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.6}{\ignorespaces Velocity $u$, Velocity $v$ and radial velocity at time step 20/100.\relax }}{111}}
+\newlabel{onefluid_20b}{{4.6}{111}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.7}{\ignorespaces Density, Temperature and Pressure at time step 40/100.\relax }}{112}}
+\newlabel{onefluid_40a}{{4.7}{112}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.8}{\ignorespaces Velocity $u$, Velocity $v$ and radial velocity at time step 40/100.\relax }}{113}}
+\newlabel{onefluid_40b}{{4.8}{113}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.9}{\ignorespaces Density, Temperature and Pressure at time step 60/100.\relax }}{114}}
+\newlabel{onefluid_60a}{{4.9}{114}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.10}{\ignorespaces Velocity $u$, Velocity $v$ and radial velocity at time step 60/100.\relax }}{115}}
+\newlabel{onefluid_60b}{{4.10}{115}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.11}{\ignorespaces Density, Temperature and Pressure at time step 80/100.\relax }}{116}}
+\newlabel{onefluid_80a}{{4.11}{116}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.12}{\ignorespaces Velocity $u$, Velocity $v$ and radial velocity at time step 80/100.\relax }}{117}}
+\newlabel{onefluid_80b}{{4.12}{117}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.13}{\ignorespaces Density, Temperature and Pressure at time step 100/100.\relax }}{118}}
+\newlabel{onefluid_100a}{{4.13}{118}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.14}{\ignorespaces Velocity $u$, Velocity $v$ and radial velocity at time step 100/100.\relax }}{119}}
+\newlabel{onefluid_100b}{{4.14}{119}}
+\@writefile{toc}{\contentsline {paragraph}{Analysis}{120}}
+\@writefile{toc}{\contentsline {section}{\numberline {4.4}Conclusions and perspectives}{120}}
+\newlabel{Conclusions}{{4.4}{120}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.15}{\ignorespaces Electric field and density perturbations at time step 0/500.\relax }}{121}}
+\newlabel{twofluid_0b}{{4.15}{121}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.16}{\ignorespaces Electric field and density perturbations at time step 200/500.\relax }}{122}}
+\newlabel{twofluid_200b}{{4.16}{122}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.17}{\ignorespaces Electric field and density perturbations at time step 350/500.\relax }}{123}}
+\newlabel{twofluid_350b}{{4.17}{123}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.18}{\ignorespaces Electric field and density perturbations at time step 500/500.\relax }}{124}}
+\newlabel{twofluid_500b}{{4.18}{124}}
+\citation{Sert}
+\@writefile{toc}{\contentsline {chapter}{\numberline {A}Mathematical tools}{127}}
+\@writefile{lof}{\addvspace {10\p@ }}
+\@writefile{lot}{\addvspace {10\p@ }}
+\@writefile{lof}{\contentsline {xchapter}{Mathematical tools}{127}}
+\@writefile{lot}{\contentsline {xchapter}{Mathematical tools}{127}}
+\@writefile{loa}{\addvspace {10\p@ }}
+\newlabel{AppendixA}{{A}{127}}
+\@writefile{toc}{\contentsline {section}{\numberline {A.1}Gauss-Legendre quadrature rule}{127}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {A.1.1}One-dimensional quadrature rule}{127}}
+\newlabel{GQ}{{A.1}{127}}
+\@writefile{toc}{\contentsline {paragraph}{Shape functions}{127}}
+\@writefile{lot}{\contentsline {table}{\numberline {A.1}{\ignorespaces One-dimensional Gauss quadrature nodes and weights\relax }}{128}}
+\newlabel{GQtable}{{A.1}{128}}
+\newlabel{shape1D}{{A.2}{128}}
+\newlabel{mappingxandxi}{{A.3}{128}}
+\newlabel{1Djacobian}{{A.4}{128}}
+\@writefile{lof}{\contentsline {figure}{\numberline {A.1}{\ignorespaces Shape basis functions for a one-dimensional finite element mesh of linear elements, as defined by equation \ref  {shape1D}.\relax }}{129}}
+\newlabel{fig:shapefunctions1D}{{A.1}{129}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {A.1.2}Two-dimensional quadrature rule}{130}}
+\newlabel{shapefunctions2D}{{A.10}{130}}
+\newlabel{mapping2D}{{A.12}{130}}
+\@writefile{lof}{\contentsline {figure}{\numberline {A.2}{\ignorespaces Two-dimensional shape functions used in converting from logical to physical coordinates in the Gauss-Legendre quadrature rule, as expressed in equation \ref  {shapefunctions2D}. From top left, $S_1$, $S_2$, $S_3$ and $S_4$.\relax }}{131}}
+\newlabel{fig:shapefunction2D}{{A.2}{131}}
+\@writefile{toc}{\contentsline {section}{\numberline {A.2}Divergence theorem}{132}}
+\citation{Michalak}
+\@writefile{toc}{\contentsline {section}{\numberline {A.3}Higher-order solution reconstruction}{133}}
+\citation{Diot}
+\@writefile{toc}{\contentsline {section}{\numberline {A.4}Solving the least-squares problem}{134}}
+\newlabel{reconstructionleastsquares}{{A.23}{134}}
+\@writefile{toc}{\contentsline {section}{\numberline {A.5}Analytical solution of the heat equation}{134}}
+\newlabel{heatequation}{{A.27}{134}}
+\bibcite{Boffa}{1}
+\bibcite{Braginskii}{2}
+\bibcite{Diot}{3}
+\bibcite{Dullemond}{4}
+\bibcite{Godunov}{5}
+\bibcite{Harten}{6}
+\bibcite{Heenan}{7}
+\bibcite{Helander}{8}
+\bibcite{Leveque}{9}
+\bibcite{Liang}{10}
+\bibcite{Michalak}{11}
+\bibcite{Scarabosio}{12}
+\bibcite{Sert}{13}
+\bibcite{LAPS}{14}
+\bibcite{Toro}{15}
+\bibcite{Wang1}{16}
+\bibcite{Wang2}{17}
+\bibcite{Wang3}{18}
+\bibcite{Wang4}{19}
+\bibcite{Wang5}{20}
+\bibcite{Wang6}{21}
+\bibcite{Wang7}{22}
+\global\mtcsecondpartfalse
